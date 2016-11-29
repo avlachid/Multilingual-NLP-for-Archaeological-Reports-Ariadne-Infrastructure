@@ -1,0 +1,89 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries:  
+	a) Names for Cuts and Deposits glossary
+	b) Components Thesaurus / Implied Feature class
+	c) Evidence Thesaurus / Physical Evidence class
+	d) Find type glossary
+*/
+
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: gndc = "http://tmp/eh_gndc#${n}"
+Template: comif = "http://tmp/eh_com#${n}"
+Template: evdpe = "http://tmp/eh_evd#${n}"
+
+Rule: gndcLookup
+(
+	{Lookup.class == [gndc n=Names_Deposits_Cuts]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Names Deposits and Cuts Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"ArchaeologicalContext", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gndcLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: comifLookup
+(
+	{Lookup.class == [comif n=Implied_Feature]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Components-Implied Feature Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"ArchaeologicalContext", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n comifLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: evdpeLookup
+(
+	{Lookup.class == [evdpe n=Physical_Evidence]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Evidence-Physical_Evidence Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"ArchaeologicalContext", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n evdpeLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

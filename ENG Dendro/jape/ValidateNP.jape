@@ -1,0 +1,43 @@
+/*
+Andreas Vlachidis 2016
+*/
+Phase: Validate
+Input: archElements woodMaterials sample Token
+Options: control = all
+
+Rule: validate
+(
+	{archElements contains {Token.category !~"NN"}}|
+	{woodMaterials contains {Token.category !~"NN"}}|
+        {sample contains {Token.category !~"NN"}}
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    inputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n validateMaterial");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: validateStopwords
+(
+	{archElements, Token.string ==~ "[Ss]pring"}|
+        {archElements, Token.string =~ "QUEM"}|
+        {archElements, Token.string =~ "quem"}
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    inputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n validateStopwords");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

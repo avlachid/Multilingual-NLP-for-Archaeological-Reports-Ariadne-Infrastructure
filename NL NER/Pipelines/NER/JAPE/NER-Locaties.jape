@@ -1,0 +1,72 @@
+Phase: OntoMatching
+Input: Lookup Token Physical_Thing NotLookup
+Options: control = appelt
+
+Template: rceLocations = "http://tmp/Locaties#${n}"
+
+Rule: LocationLookup
+(
+  //{Token.category == N, Lookup.class == Locations}
+   {!NotLookup, !Physical_Thing, Lookup.class == [rceLocations n=Locations]}
+
+):match 
+--> 
+{
+try {
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();
+    int begOffset = matchedAS.firstNode().getOffset().intValue();  
+    int endOffset = matchedAS.lastNode().getOffset().intValue();  
+    String mydocContent = doc.getContent().toString();  
+    String matchedString = mydocContent.substring(begOffset, endOffset); 
+    if(org.apache.commons.lang.StringUtils.isAllUpperCase(matchedString.substring(0, 1))){ 
+    	features.put("class", features.get("class"));
+    	features.put("thesaurus", "Global Thesauri Locaties");  
+    	outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Place", features); 
+  
+    } 
+
+}
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: LocationLookupByPassNounValidation
+(
+
+   {Lookup.class == [rceLocations n="s_Heerenberg"]}|
+   {Lookup.class == [rceLocations n="s_Hertogenbosch"]}|
+   {Lookup.class == [rceLocations n="s_Graveland"]}|
+   {Lookup.class == [rceLocations n="s_Heerenbroek"]}|
+   {Lookup.class == [rceLocations n="s_Gravenpolder"]}|
+   {Lookup.class == [rceLocations n="s_Heer Abtskerke"]}|
+   {Lookup.class == [rceLocations n="s_Heerenhoek"]}|
+   {Lookup.class == [rceLocations n="s_Heer Arendskerke"]}|
+   {Lookup.class == [rceLocations n="s_Heer Hendrikskinderen"]}|
+   {Lookup.class == [rceLocations n="s_Gravendeel"]}|
+   {Lookup.class == [rceLocations n="s_Gravenhage"]}|
+   {Lookup.class == [rceLocations n="s_Gravenzande"]}
+
+):match 
+--> 
+{
+try {
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "Global Thesauri Locaties"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Place", features); 
+
+}
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

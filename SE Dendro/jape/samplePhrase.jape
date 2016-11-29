@@ -1,0 +1,18 @@
+/*
+Andreas Vlachidis 2016
+
+*/
+
+Phase: DateMatching
+Input: 	Sentence Split Date sample
+Options: control = appelt
+
+Rule: samplePhrase
+Priority: 50
+(
+  ({sample}{Date})|
+  ({Date}{sample})
+)
+:match
+-->
+:match.samplePhrase = {rule = "samplePhrase"}

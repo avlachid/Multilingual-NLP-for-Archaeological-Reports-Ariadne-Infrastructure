@@ -1,0 +1,25 @@
+/*
+Andreas Vlachidis 2015
+*/
+Phase: Validate
+Input: Object Material
+Options: control = all
+
+Rule: validate
+(
+	{Object contains {Token.category !~"NN"}}|
+	{Material contains {Token.category !~"NN"}}
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    inputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n validateMaterial");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

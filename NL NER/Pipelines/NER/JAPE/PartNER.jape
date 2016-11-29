@@ -1,0 +1,30 @@
+Phase: PartMatching
+Input: LookupPartPeriod LookupPartArtefact LookupPartComplex LookupPartMaterial SpaceToken
+Options: control = appelt
+
+Rule: PartPeriodArtefact
+(
+  {LookupPartPeriod}{LookupPartArtefact}
+
+):match
+-->
+
+:match.PartPeriodArtefact = {rule = "Part Period Artefact"}
+
+Rule: PartMaterialArtefact
+(
+  {LookupPartMaterial}{LookupPartArtefact}
+
+):match
+-->
+
+:match.PartMaterialArtefact = {rule = "Part Material Artefact"}
+
+Rule: PartPeriodComplex
+(
+  {LookupPartPeriod}{LookupPartComplex}
+
+):match
+-->
+
+:match.PartPeriodComplex = {rule = "Part Period Complex"}

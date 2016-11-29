@@ -1,0 +1,52 @@
+/*
+Andreas Vlachidis 2016
+Matches from AAT Thesaurus
+	a) AAT Wood Material
+
+*/
+
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Rule: firstTable
+
+(
+ (
+  {Token.string == "Table"}|
+  {Token.string == "Fig"}|
+  {Token.string == "Figure"}
+ )
+ {Token.kind == number}
+)
+:match
+-->
+{}
+
+Template: woodMaterial = "http://tmp/AAT/${n}"
+
+Rule: archElementsLookup
+(
+	{Lookup.class == [woodMaterial n=materials]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"woodMaterials", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mdaLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

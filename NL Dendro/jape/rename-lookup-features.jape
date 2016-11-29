@@ -1,0 +1,27 @@
+Phase: LookupRename
+Input: Lookup
+Options: control = all
+Rule: RenameLookup
+(
+  {Lookup}
+
+):match
+-->
+:match{  
+   
+  AnnotationSet theAnnots = bindings.get("match");  
+  if(theAnnots != null && theAnnots.size() != 0) {  
+    Annotation theLookup = theAnnots.iterator().next();  
+    FeatureMap theFeatures = theLookup.getFeatures();
+    String sOntClass = (String) theFeatures.get("URI");
+    OClass ontclass = ontology.getOClass(ontology.createOURI(sOntClass));
+    AnnotationProperty oprtCode = (AnnotationProperty) ontology.getAnnotationProperty(ontology.createOURI("http://purl.org/dc/terms/identifier"));
+ if(oprtCode != null) {
+       List <Literal> loprtCode = ontclass.getAnnotationPropertyValues(oprtCode);
+       for(Literal oprtCodeInst:loprtCode) { 
+				theFeatures.put("Identifier", oprtCodeInst.toString());
+	}
+    }
+    theFeatures.put("class", theFeatures.get("URI")); 
+  }  
+}

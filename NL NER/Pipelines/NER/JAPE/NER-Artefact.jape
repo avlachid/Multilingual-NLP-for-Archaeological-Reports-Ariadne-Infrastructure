@@ -1,0 +1,30 @@
+Phase: OntoMatching
+Input: Lookup Token Context Physical_Thing NotLookup
+Options: control = appelt
+
+Template: rceArtefact = "http://tmp/Artefacttypen#${n}"
+Rule: ArtefactLookup
+Priority: 1
+(
+  //{Token.category == N, Lookup.class == ArcheoArtefactTypes}
+   {!NotLookup, !Context, !Physical_Thing, Token.category == N, Lookup.class == [rceArtefact n=ArcheoArtefactTypes]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "Archeologische artefacttypen"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"PhysicalObject", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

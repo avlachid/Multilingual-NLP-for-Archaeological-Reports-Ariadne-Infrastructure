@@ -1,0 +1,122 @@
+/*
+Andreas Vlachidis 2016
+Relation spans of the kind 
+Object <has_type> Material
+*/
+
+Phase: RelationSpans
+Input: Sentence Material Object Time_Appellation ComboTimeAppellation Token VG
+Options: control = appelt
+
+/*
+Rule: Has_Type
+(
+	{Material}{Object}
+):match
+--> 
+:match.Has_Type = {rule = "Has_Type"}
+
+Rule: Has_Type_II
+(
+	{Object}{Material}
+):match
+--> 
+:match.Has_Type = {rule = "Has_Type_II"}
+*/
+
+Rule: P45_I
+Priority: 100
+(
+	{Material}
+	{Object}
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_I"}
+
+Rule: P45_I
+Priority: 100
+(
+	{Material}
+	{Object}
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_I"}
+
+Rule: P45_II
+Priority: 100
+(
+	{Object}
+	{Token.category == IN}
+	{Material}
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_II"}
+
+Rule: P45_III
+Priority: 100
+(
+	{Object}
+	{VG}
+	{Material}
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_III"}
+
+Rule: P45_IV
+Priority: 100
+(
+	{Material}
+	({Time_Appellation}|{ComboTimeAppellation})
+	{Object}
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_IV"}
+
+Rule: P45_V
+Priority: 100
+(
+	{Object}
+	{VG}
+	{Token.category == IN}
+	({Time_Appellation}|{ComboTimeAppellation})?
+	{Material}
+	
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_V"}
+
+Rule: P45_VI
+Priority: 100
+(
+	{Material}
+	{Token.category == IN}
+	({Time_Appellation}|{ComboTimeAppellation})?
+	{Object}
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_VI"}
+
+Rule: P45_VII
+Priority: 100
+(
+	{Material}
+	{VG}
+	{Token.category == IN}
+	({Time_Appellation}|{ComboTimeAppellation})?
+	{Object}
+	
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_VII"}
+
+Rule: P45_VIII
+Priority: 100
+(
+	{Object}
+	{Token.category == IN}
+	({Time_Appellation}|{ComboTimeAppellation})
+	{Material}
+	
+)
+:Mention --> 
+:Mention.Has_Type = {rule="P45_VIII"}

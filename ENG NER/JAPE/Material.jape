@@ -1,0 +1,113 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries:  
+	a) Material Types Thesaurus (whole structure)
+	b) Archaeological Science Thesaurus / Material Type class
+	c) Material Types Glossary
+	d) Bulk Finds Material Glossary
+*/
+
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: tbm = "http://tmp/eh_tbm#${n}"
+Template: gmt = "http://tmp/eh_gmt#${n}"
+Template: gbfm = "http://tmp/eh_gbfm#${n}"
+Template: arcsm = "http://tmp/560#${n}"
+
+Rule: tbmLookup
+(
+	{Lookup.class == [tbm n=Material]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Building Materials Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n tbmLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: gmtLookup
+(
+	{Lookup.class == [gmt n=Material_Type]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Material Type Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gmtLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: gbfmLookup
+(
+	{Lookup.class == [gbfm n=Bulk_Finds_Material]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Bulk Finds Material Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gbfmLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: arcsmLookup
+(
+	{Lookup.class == [arcsm n=Material_Type]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Archaeological Science-Material Type class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n arcsmLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

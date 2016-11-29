@@ -1,0 +1,106 @@
+/*
+Andreas Vlachidis 2016
+Numerical date eg AD 1453
+
+*/
+
+Phase: DateMatching
+Input: Lookup Token
+Options: control = appelt
+
+
+Rule: dateAdbc
+Priority: 85
+(
+  ({Token.category == RO}
+   ({Token.string == "och"}|{Token.string == "-"}))?
+  (
+   {Token.category == RO}
+   ({Lookup.majorType == adbc})+ 
+  )
+)
+:match
+-->
+:match.Date = {rule = "dateAdbc"}
+Rule: ordinalCentury
+Priority: 80
+(
+  (
+   {Lookup.majorType == ordinal}|
+   (
+     {Token.category == RO}
+     {Lookup.majorType == ordinal_suffix}
+   )
+  )
+  {Token.string ==~ "[Åå]rhundrade"}
+):match
+  
+-->
+:match.Date = {rule = "ordinalCentury"}
+
+Rule: datePrefix
+Priority: 75
+(
+  {Lookup.majorType == date_prefix}
+  {Token.category == RO}
+   ({Token.string == "±"}|
+   {Token.string == "och"}|
+   {Token.string == "-"}|
+   {Token.string == "–"}
+   {Token.category == RO})?
+  ({Lookup.majorType == adbc})?
+  ({Lookup.majorType == adbc})?
+)
+:match
+-->
+:match.Date = {rule = "datePrefix"}
+
+Rule: prepDate
+Priority: 50
+
+   {Token.category == PR}
+(  {Token.category == RO}
+   ({Token.string == "±"}|
+   {Token.string == "och"}|
+   {Token.string == "-"}|
+   {Token.string == "–"}
+   {Token.category == RO})?
+  ({Lookup.majorType == adbc})
+  ({Lookup.majorType == adbc})?
+)
+:match
+-->
+:match.Date = {rule = "prepDate"}
+
+Rule: prepDatePlus
+Priority: 50
+
+  ({Token.category == PR})?
+(  {Token.category == RO}
+   {Token.string == "±"}
+   {Token}
+  ({Lookup.majorType == adbc})?
+  ({Lookup.majorType == adbc})?
+)
+:match
+-->
+:match.Date = {rule = "prepDatePlus"}
+
+
+Rule: mergedByTokenizer
+Priority: 50
+(
+  {Token.string ==~ "[0-9]+[±][0-9]+"}
+)
+:match
+-->
+:match.Date = {rule = "mergedByTokenizer"}
+
+Rule: mergedByTokenizer
+Priority: 50
+(
+  {Token.string ==~ "[0-9]*-tal.*"}
+)
+:match
+-->
+:match.Date = {rule = "mergedByTokenizer"}

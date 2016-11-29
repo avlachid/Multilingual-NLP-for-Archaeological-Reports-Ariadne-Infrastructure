@@ -1,0 +1,38 @@
+/*
+Andreas Vlachidis 2016
+Matches from AAT Thesaurus
+	a) AAT Sample
+
+*/
+
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: sample = "http://tmp/AAT/${n}"
+
+Rule: sampleLookup
+(
+	{Lookup.class == [sample n=sample]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"sample", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n aatLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

@@ -1,0 +1,44 @@
+Phase:   Period
+Input: Token Lookup
+Options: control = appelt
+
+Rule:NumericalDateSuffix
+// 8800 vC , 6000BP, 11.500 voor Christus
+(
+	{Token.category==Num}
+	{Lookup.majorType == periodSuffix}
+):match
+-->
+:match.TimeAppellation = {rule = "NumericalDateSuffix"}
+
+Rule:NumericalDateSuffixCombo
+// 5300 - 2000 vC, 800 v.Chr. - 1500 n.Chr
+(
+	{Token.category==Num}
+	({Lookup.majorType == periodSuffix})?
+	({Token.string == "-"}|{Token.string == "/"}|{Token.string == "–"})?
+	{Token.category == Num}
+	{Lookup.majorType == periodSuffix}
+):match
+-->
+:match.TimeAppellation = {rule = "NumericalDateSuffixCombo"}
+
+
+Rule:NumericalDateTussen
+// tussen 1600 en 1900
+(
+	{Token.string == "tussen"}
+	{Token.category==Num}
+	({Lookup.majorType == periodSuffix})?
+	{Token.string == "en"}
+	{Token.category==Num}
+	({Lookup.majorType == periodSuffix})
+):match
+-->
+:match.TimeAppellation = {rule = "NumericalDateTussen"}
+
+
+
+
+
+

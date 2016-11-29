@@ -1,0 +1,31 @@
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: rcePeriods = "http://tmp/Perioden#${n}"
+
+Rule: ArtefactLookup
+(
+	//{Token.category == N, Lookup.class == Archeologische_perioden}
+	  {Lookup.class == [rcePeriods n=Archeologische_perioden]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "Archeologische perioden abr+"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"TimeAppellation", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

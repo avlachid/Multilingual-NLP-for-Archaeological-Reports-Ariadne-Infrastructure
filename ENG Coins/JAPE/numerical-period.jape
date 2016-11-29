@@ -1,0 +1,33 @@
+/*
+Andreas Vlachidis 2016
+Matches from Nomisma Vocabulary:  
+*/
+
+Phase: OntoMatching
+Input: Token Lookup
+Options: control = appelt
+
+// case like : mid 1st century AD
+
+Rule: periodPrefixNumberSuffix
+(
+	({Lookup.majorType == "PeriodPrefix"})?
+	({Token.category == "CD"}({Token}{Token.category == "CD"})?)
+	({Lookup.majorType == "PeriodSuffix"})+
+
+):match 
+--> 
+:match.Period ={rule="periodPrefixNumberSuffix"}
+
+// case like : AD 43–70
+Rule: ADBCNumber
+(
+	({Token.string=="AD"}|{Token.string=="ad"}|{Token.string=="BC"}|{Token.string=="bc"})
+	({Token.category == "CD"}({Token}{Token.category == "CD"})?)
+
+
+):match 
+--> 
+:match.Period ={rule="ADBCNumber"}
+
+

@@ -1,0 +1,202 @@
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = all
+
+Rule: Archaeological_ObjectLookup
+(
+	{Lookup.class == "mda_obj#Archaeological_Object"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Archaeological Object", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: Archaeological_ScienceLookup
+(
+	{Lookup.class == "560#Archaeological_Science"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Archaeological Science", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: Building_MaterialLookup
+(
+	{Lookup.class == "eh_tbm#Building_Material"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Building Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: ComponentLookup
+(
+	{Lookup.class == "eh_com#Component"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Component", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: Event_TypeLookup
+(
+	{Lookup.class == "agl_et#Event_Type"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Event Type", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: Evidence_TypeLookup
+(
+	{Lookup.class == "eh_evd#Evidence_Type"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Evidence Type", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: Maritime_Craft_TypeLookup
+(
+	{Lookup.class == "eh_mct#Maritime_Craft_Type"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Maritime Type", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: MonumentLookup
+(
+	{Lookup.class == "eh_tmt#Monument"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Monument", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: PeriodLookup
+(
+	{Lookup.class == "eh_period#Period"}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class")); 
+     outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Period", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

@@ -1,0 +1,38 @@
+Phase: PartMatching
+Input: Lookup
+Options: control = appelt
+
+Rule: PartPeriodLookup
+(
+  {Lookup.minorType == ArcheologischePerioden}
+
+):match
+-->
+
+:match.LookupPartPeriod = {rule = "Lookup Part Period"}
+
+Rule: PartArtefactLookup
+(
+  {Lookup.minorType == ArcheoArtefactTypen}
+
+):match
+-->
+
+:match.LookupPartArtefact = {rule = "Lookup Part Artefact"}
+
+Rule: PartComplexLookup
+(
+  {Lookup.minorType == ArcheoComplexTypen}
+
+):match
+-->
+
+:match.LookupPartComplex = {rule = "Lookup Part Complex"}
+Rule: PartMaterialLookup
+(
+  {Lookup.minorType == Materialen}
+
+):match
+-->
+
+:match.LookupPartMaterial = {rule = "Lookup Part Materialen"}

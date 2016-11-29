@@ -1,0 +1,69 @@
+/*
+Andreas Vlachidis 2016
+Matches from Nomisma Vocabulary:  
+*/
+
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: mtl = "http://tmp/nomisma/${n}"
+
+
+//bypass two letter matches - material code names
+
+Rule: firstRule
+
+(
+  {Token.string == "ae"}|
+  {Token.string == "al"}|
+  {Token.string == "ar"}|
+  {Token.string == "av"}|
+  {Token.string == "cu"}|
+  {Token.string == "el"}|
+  {Token.string == "fe"}|
+  {Token.string == "ni"}|
+  {Token.string == "pb"}|
+  {Token.string == "sn"}|
+  {Token.string == "zn"}|
+  {Token.string == "AE"}|
+  {Token.string == "AL"}|
+  {Token.string == "AR"}|
+  {Token.string == "AV"}|
+  {Token.string == "CU"}|
+  {Token.string == "EL"}|
+  {Token.string == "FE"}|
+  {Token.string == "NI"}|
+  {Token.string == "PB"}|
+  {Token.string == "SN"}|
+  {Token.string == "ZN"}
+)
+:match
+-->
+{}
+
+
+
+Rule: mtlLookup
+(
+	{Lookup.class == [mtl n=material]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Nomisma Vocabulary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mtlLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

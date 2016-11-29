@@ -1,0 +1,43 @@
+Phase: NER
+Input: Lookup
+Options: control = appelt
+
+Rule:Context
+
+(
+	{Lookup.majorType == Context}
+):match
+-->
+:match.ArchaeologicalContext = {rule = "ArchaeologicalContext"}
+
+Rule:Object
+
+(
+	{Lookup.majorType == Object}
+):match
+-->
+:match.PhysicalObject = {rule = "PhysicalObject"}
+
+Rule:Monument
+
+(
+	{Lookup.majorType == Monument}
+):match
+-->
+:match.Structure = {rule = "Structure"}
+
+Rule:TimeAppellation
+
+(
+	{Lookup.majorType == TimeAppellation}
+):match
+-->
+:match.TimeAppellation = {rule = "TimeAppellation"}
+
+Rule:Place
+
+(
+	{Lookup.majorType == Place}
+):match
+-->
+:match.Place = {rule = "Place"}

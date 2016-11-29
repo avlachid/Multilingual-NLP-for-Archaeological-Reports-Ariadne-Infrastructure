@@ -1,0 +1,131 @@
+/*
+Andreas Vlachidis 2016
+Numerical date eg AD 1453
+
+*/
+
+Phase: DateMatching
+Input: Lookup Token
+Options: control = appelt
+
+
+Rule: adbcDateToadbcDate
+Priority: 110
+({Token.category == "IN"})?
+(
+  (
+   {Lookup.majorType == adbc}
+   {Token.kind == number}
+  )
+  (
+   {Token.kind == punctuation}
+   {Token.kind == number}
+  )?
+  ({Token.string == "to"})
+  (
+   {Lookup.majorType == adbc}
+   {Token.kind == number}
+  )
+  (
+   {Token.kind == punctuation}
+   {Token.kind == number}
+  )?
+)
+:match
+-->
+:match.Date = {rule = "adbcDateToadbcDate"}
+
+
+Rule: adbcDate
+Priority: 100
+({Token.category == "IN"})?
+(
+  (
+   {Lookup.majorType == adbc}
+   {Token.kind == number}
+  )
+  (
+   {Token.kind == punctuation}
+   {Token.kind == number}
+  )?
+)
+:match
+-->
+:match.Date = {rule = "adbcDate"}
+
+Rule: inDate
+Priority: 90
+
+  ({Token.string == "in"}|{Token.string == "by"})
+  (({Lookup.majorType == adbc})?
+   {Token.kind == number, Token.length == "4"}
+  ):match
+  
+-->
+:match.Date = {rule = "inDate"}
+
+Rule: inDateII
+Priority: 90
+
+  ({Token.string == "in"}|{Token.string == "by"})
+  ( {Lookup.majorType == adbc}
+    ({Token.kind == number, Token.length == "3"}|
+     {Token.kind == number, Token.length == "2"}|
+     {Token.kind == number, Token.length == "1"}
+   )
+  ):match
+  
+-->
+:match.Date = {rule = "inDateII"}
+Rule: inDateIII
+Priority: 90
+
+  ({Token.string == "in"}|{Token.string == "by"})
+  (
+   ({Token.kind == number, Token.length == "3"}|
+    {Token.kind == number, Token.length == "2"}|
+    {Token.kind == number, Token.length == "1"}
+   )
+   {Lookup.majorType == adbc}
+  ):match
+  
+-->
+:match.Date = {rule = "inDateIII"}
+
+
+
+Rule: ordinalCentury
+Priority: 80
+(
+  (
+   {Lookup.majorType == ordinal}|
+   (
+     {Token.kind == number}
+     {Lookup.majorType == ordinal_suffix}
+   )
+  )
+  ({Token.string ==~ "[Cc]entury"}|
+   {Token.string ==~ "[Cc]enturies"}
+  )
+  ({Lookup.majorType == adbc})?
+):match
+  
+-->
+:match.Date = {rule = "ordinalCentury"}
+
+
+
+
+Rule: dateAdbc
+Priority: 75
+(
+   {Token.kind == number}
+   (
+   {Token.kind == punctuation}
+   {Token.kind == number}
+   )?
+   {Lookup.majorType == adbc} 
+)
+:match
+-->
+:match.Date = {rule = "dateAdbc"}

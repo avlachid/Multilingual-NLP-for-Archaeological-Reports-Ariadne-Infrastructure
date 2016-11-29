@@ -1,0 +1,163 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries:  
+	a) Components Thesaurus / Building Component class
+	b) Components Thesaurus / Decorative Features class
+	c) Components Thesaurus / Fixtures and Fittings class
+	d) Components Thesaurus / Structural Component class
+	e) Masonry Structural Elements glossary
+	f) Timber Structural Elements glossary
+*/
+
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: com = "http://tmp/eh_com#${n}"
+Template: gmse = "http://tmp/eh_gmse#${n}"
+Template: gtse = "http://tmp/eh_gtse#${n}"
+
+Rule: combcLookup
+(
+	{Lookup.class == [com n=Building_Component]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Component-Building_Component Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n combcLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: comdfLookup
+(
+	{Lookup.class == [com n=Decorative_Features]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Component-Decorative_Features Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n comdfLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: comfnfLookup
+(
+	{Lookup.class == [com n=Fixtures_And_Fittings]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Component-Fixtures_And_Fittings Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n comfnfLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: comscoLookup
+(
+	{Lookup.class == [com n=Structural_Component]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Component-Structural_Component Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n comscoLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: gmseLookup
+(
+	{Lookup.class == [gmse n=Masonry_Structural_Elements]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Masonry Structural Elements Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gmseLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: gtseLookup
+(
+	{Lookup.class == [gtse n=Timber_Structural_Elements]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Timber Structural Elements Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gtseLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

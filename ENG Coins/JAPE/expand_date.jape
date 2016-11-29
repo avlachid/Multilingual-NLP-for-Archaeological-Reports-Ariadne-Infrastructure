@@ -1,0 +1,57 @@
+/*
+Andreas Vlachidis 2016
+Expand Date Entity on prefix and suffix
+
+*/
+
+Phase: DateMatching
+Input: Time_Appellation Lookup Token
+Options: control = appelt
+
+
+Rule: DateExpandPrefix
+(
+	{Lookup.majorType == "period_prefix"}
+        {Time_Appellation}
+        ({Lookup.majorType == "period_suffix"})?
+):match
+--> 
+{
+try {
+
+    AnnotationSet matchAS = bindings.get("match");
+    AnnotationSet matchedTimeAppellation = matchAS.get("Time_Appellation");
+    Annotation matchAnn = (gate.Annotation)matchedTimeAppellation.iterator().next();
+    outputAS.removeAll(matchedTimeAppellation);
+    gate.FeatureMap features = matchAnn.getFeatures();
+    features.put("rule", "DateExpandPrefix");
+    outputAS.add(matchAS.firstNode().getOffset(), matchAS.lastNode().getOffset(),"Time_Appellation", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mdaLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: DateExpandSuffix
+(
+	{Time_Appellation}
+        ({Lookup.majorType == "period_suffix"})
+):match
+--> 
+{
+try {
+
+    AnnotationSet matchAS = bindings.get("match");
+    AnnotationSet matchedTimeAppellation = matchAS.get("Time_Appellation");
+    Annotation matchAnn = (gate.Annotation)matchedTimeAppellation.iterator().next();
+    outputAS.removeAll(matchedTimeAppellation);
+    gate.FeatureMap features = matchAnn.getFeatures();
+    features.put("rule", "DateExpandSuffix");
+    outputAS.add(matchAS.firstNode().getOffset(), matchAS.lastNode().getOffset(),"Time_Appellation", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mdaLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

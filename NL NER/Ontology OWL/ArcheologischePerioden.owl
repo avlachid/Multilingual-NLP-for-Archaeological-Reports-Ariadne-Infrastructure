@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://tmp/Perioden#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Archeologische_perioden">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/45cc6c7c-3b8c-4e07-83c0-87d997d11bc9</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/c028640a-0359-45e9-a1fb-19d23e939ece</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Prehistorie">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/bc71bed2-76cb-4c0a-8e1e-adf62c01c927</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/47c80b8b-134b-410c-bd8d-8ab39cdef443</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Steentijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/1ae7b365-9ed7-4989-b316-2a07b9436107</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/23fff619-6c77-4b57-a7f6-a475baeb66f9</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Paleolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/c8681eec-336b-478f-8083-149b65e7a9ef</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/720f4554-990f-40e5-9187-2d1c12e1c4a0</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Paleolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/8c6745f3-579b-4b37-9066-100f76cfa7ae</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/d5d5251d-5a2c-4ed3-9b80-bd007c3a0483</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Paleolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/b85aeefe-0a76-4973-8bc9-fb3b0f06bbb7</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/25e9f615-3f68-4b7b-b4d4-0adb855b692f</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/d410e87f-141b-4134-bf51-23e9d55de4ff</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/7859c08e-ad35-4796-8685-c89597c99897</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/fc98d259-b455-4b29-a396-c8ee2425376f</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/92943650-c44b-4377-993b-fd4a68d88d93</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/3b862356-21b1-4fb2-aecb-0a0f163f5a9a</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/c057963c-1e6b-45e7-84c3-8e0667ba32ba</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Mesolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/fd7a9b43-877a-4d84-b38a-d19ec18ce636</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/6120c63f-1357-4854-9ad2-6a889051729d</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Mesolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/c923090e-86a3-4740-a0a7-522f6aaecfb5</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/06676832-e8b9-4541-9c28-ddb96d1984e1</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Mesolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/4d3bb19f-f6cc-4de1-96ec-3957cbf15269</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/77888990-8dba-4234-80f3-bab95414869c</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Mesolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/2bb423f0-4451-467b-bc0f-1167fd15e3cd</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/13dd933d-bab8-47bd-9ed3-2ffe69fb6fb0</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Neolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/11abf6b5-4b86-4c70-be02-6b478132671b</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/2e04e5a6-b7f1-4e29-a519-48f62856096c</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/a7d45896-c0c2-4fa1-a20f-e2880d1e1cbb</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/eeb1d971-882f-48af-92d3-44239c7e0837</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/8868ea97-cb78-4d6f-819a-955481bb4621</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/d4492ee4-3e1d-4938-bbe3-8cdde9e4e3f9</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/c45974fe-9465-4113-b483-788dc6799879</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/cb1ce5b1-53f2-4ae8-a999-0f64c26803ff</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/2954fbea-77ad-41ab-afa1-c8fae9393074</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/ee1f4214-7ce1-406e-8d76-d1eee327d32f</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/813bcc3b-a147-4999-a403-c9246245c0c2</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/112ce82f-dd56-4ea8-8b7d-6829b78654ce</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/1f130fec-f63b-4d02-8386-ebb7e0bf3df6</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/8e9e6a8c-c3fd-4460-93c9-e4da7f8e0065</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/e804c8c0-dba4-4f0d-90ab-604bbacfe518</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/d2ec75f1-1e9a-45f9-a30b-21207084a618</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/49466596-7edd-4116-a545-f98a2cdc605d</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/6d4e0c4d-fd1c-4e68-a408-fe3486829085</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/4cf56d4d-c0c3-4e50-b601-4ea217f66646</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/8098b67c-f7d4-4e2c-9d46-45834aa848dd</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Bronstijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/8a56f853-977f-42b0-b73e-3fd9f8ad7ced</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/4b9b7cd4-0aa8-4f60-915d-850025846196</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Bronstijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/c08024c3-fe45-4eba-bcc2-c33a62589a5c</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/2d2e7e55-350d-4f51-991b-d89bfd2b4e82</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/0abfc9d5-b438-4c3c-ac26-4afe268d7c75</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/33c1af28-7d8d-42cb-a918-73f6da47c368</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/187df934-6f02-4aa9-b57f-60948a9a0215</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/5986b9fa-5b5f-4c91-97f8-6f8b0d33cb16</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/70e6f7aa-690e-4dd9-bd97-3ad04d882593</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/a74b1c4a-c91f-4e71-86d6-8ec01cb9e2ef</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Bronstijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/9e8adf39-7c8d-4295-8e97-e0b4842fe4fd</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/07fe2c16-41ca-48b2-a8b7-6d146b07feae</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#IJzertijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/d2b2d0a2-1bac-45cf-a0e0-3d1e54d5d1fa</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/1ffb742d-4e77-441b-866c-726910291372</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_IJzertijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/00288381-4fd1-4e30-862f-7211322e5c9b</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/5605b2d2-0813-4433-9c86-23b776501461</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_IJzertijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/3c16c2ce-ee92-4865-95ae-8b5d87b5b63d</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/d1e63c4f-e212-41c3-beb0-6d5cae3c50d8</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_IJzertijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/32c6e6c6-4b80-4fe4-8d27-8aeb0bf0bfca</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/d9fbf18d-73e8-435a-8e7a-5492d5ad9144</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Protohistorie">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/edbd51f6-1b19-45fb-96f1-bf56dd6fda8d</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/02c80fc3-c95b-428d-acbb-ed637abbaea1</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Romeinse_Tijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/765842e6-60de-4d3a-934c-e27c33dcc962</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/3210b1c9-a0b2-4d42-bbe4-626ba94bde53</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/a4675dd1-6a37-472b-b24d-c2d34f42a430</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/a3a9ac92-581a-4885-963d-469722553d7c</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/deec9075-054e-4126-8813-b1e1b63c139a</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/249105b6-25d0-4582-82b7-35a3a193c402</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/4be2afd1-b8fa-4c9a-a1b4-b9325b40edd6</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/299c76eb-31ce-4b6b-8bac-484786e24cfe</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/1c0b660c-4c0d-41d5-80d9-179c120e9677</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/81dc5484-85c4-4735-9441-626b04873788</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/350e1593-a1fa-4b54-8e03-ce14f1f545e5</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/402fdae8-46cb-4a1c-bc37-ddb60b2cfcd4</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/c5b0bf10-b8f2-434e-b312-e96e402d9145</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/da30f8fe-aaff-4469-9207-9000262a7d7b</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/44736301-0155-4af7-9f0b-3ecefdac12f1</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/fe2658f2-d3f9-4a1a-a026-5072dd02f7e6</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/8aeb8df5-9213-4282-9a6d-9ad97c01d8f0</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/3765363e-9b90-4a12-a50b-58d6f4b9fa59</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/0c9a30d8-2787-43a6-b526-9e9d259ae9f8</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/307b06a6-723d-4365-8be7-72572a842994</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Historie">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/765ae778-dbd9-44d0-b689-82bc9425280d</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/4eeab64b-be6e-4f5d-bf9a-fc8076e20cd4</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Middeleeuwen">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/154684b0-5436-4378-94aa-4c34702f5e80</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/5cea51de-7e07-43cd-82ca-0ff3d0123ad4</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/ac119f55-bd28-4def-86c6-037349b7187c</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/5b2c7fc8-f518-4b1c-832d-63873896ac93</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/fd8ea5a7-af8c-468e-bddf-c2f1d3919043</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/3608f9be-b423-4393-919c-be78cc9e58ce</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/7373dfd8-ca95-41ce-9154-f4fc7f8bf5ef</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/9fbc7843-56f4-4575-887d-b0c25c943d7f</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_C">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/c36cba3c-55ed-4d72-b740-dbfce9a286fb</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/5e351e11-f63b-46ae-bc0a-f5afc93b6941</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_D">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/49bce08e-a662-4247-ab0c-2d10ed306602</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/80825976-c2b9-404e-8921-27ba4ea8c6c7</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/a4025029-f2f4-4218-b113-38bf8450450c</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/b792e025-738d-40ef-9248-b6611a8f45c2</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/bdf26d72-fc2c-422d-b693-393943c41b2e</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/b14e70d5-cc64-423f-be34-da814b76ce14</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/f2729dd8-32ca-4513-beac-1bc90f3af5ec</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/86f00dd6-ad41-4b3b-9f39-6504f7eb4137</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/061e22f8-2c04-452a-bbb9-ccd4ed7d4867</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/2f4395fe-1147-48f8-99e4-ba857aea566a</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_A">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/9a2a5781-49d4-4e1a-9eff-cb5d29064502</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/b44d72c2-4df6-432f-8b59-3abd8a0f7334</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_B">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/f4afe2fc-566c-4e4a-80d4-1b014b7a8a31</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/d925aea0-fe76-489b-94a8-5187f7a06fa5</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_C">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/f873bcc5-c997-40dd-9463-a857988f016b</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/1990e131-b74a-4731-917b-66f7b8dd3b5d</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Recent">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/ac724e81-a87d-4ea5-8d6b-3490dedad7fd</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/a71a814f-87c5-4ccf-b0a1-7b6a4a9fbc03</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Onbekend">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/8336afe0-cbda-4a01-92c3-b267313fae65</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/a85a17fb-61c0-4049-9ab3-a7a9343936b5</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Overig">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/9fa95887-8ae2-4572-b49d-92c0f1ce87b5</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/283e611b-2abe-437e-8532-6c20b4d381a1</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Hoge_Middeleeuwen">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/69fc2adb-491b-48e3-b2e1-94f6b81d5cc5</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/8096f60b-ead2-497a-8697-72f46e30c2b4</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Volle_Middeleeuwen">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/0a3e6fe4-32c7-4bb8-a981-7d31f2b5dc16</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/786439e9-300e-4f3f-af38-6ad41df44c46</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Tweede_Wereldoorlog">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/8a5ebeba-ae68-4e43-9937-a4e882e84263</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/31f4aa3f-2d11-4421-a872-51f8c50595d0</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Metaaltijden">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      <dcterms:identifier>http://www.rnaproject.org/data/1f6bd946-a24d-4298-9721-f34d82ea8bb6</dcterms:identifier>
+      <rdfs:seeAlso>http://www.rnaproject.org/data/cf13b6bb-8556-459c-8029-b321736489a2</rdfs:seeAlso>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Prehistorie">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Archeologische_perioden"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Steentijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Prehistorie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Paleolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Steentijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Paleolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Paleolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Paleolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Paleolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Paleolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Laat_Paleolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Laat_Paleolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Mesolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Steentijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Mesolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Mesolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Mesolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Mesolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Mesolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Mesolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Neolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Steentijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroeg_Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroeg_Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Midden_Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Midden_Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Laat_Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Laat_Neolithicum"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Bronstijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Prehistorie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Bronstijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Bronstijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Bronstijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Midden_Bronstijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Midden_Bronstijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Bronstijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Bronstijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#IJzertijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Prehistorie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_IJzertijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#IJzertijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_IJzertijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#IJzertijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_IJzertijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#IJzertijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Protohistorie">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Archeologische_perioden"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Romeinse_Tijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Protohistorie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroeg_Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroeg_Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Midden_Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Midden_Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Laat_Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Laat_Romeinse_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Historie">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Archeologische_perioden"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Middeleeuwen">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Historie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroege_Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroege_Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_C">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroege_Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_D">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Vroege_Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Late_Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Late_Middeleeuwen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Historie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_A">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Nieuwe_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_B">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Nieuwe_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_C">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Nieuwe_Tijd"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Recent">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Historie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Onbekend">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Archeologische_perioden"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Overig">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Archeologische_perioden"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Hoge_Middeleeuwen">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Overig"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Volle_Middeleeuwen">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Overig"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Tweede_Wereldoorlog">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Overig"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Metaaltijden">
+      <rdfs:subClassOf rdf:resource="http://tmp/Perioden#Overig"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Archeologische_perioden"/>
+   <rdf:Description rdf:about="http://tmp/Perioden#Prehistorie">
+      <rdfs:label xml:lang="dut">Prehistorie</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Steentijd">
+      <rdfs:label xml:lang="dut">Steentijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Paleolithicum">
+      <rdfs:label xml:lang="dut">Paleolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Paleolithicum">
+      <rdfs:label xml:lang="dut">Vroeg Paleolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Paleolithicum">
+      <rdfs:label xml:lang="dut">Midden Paleolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum">
+      <rdfs:label xml:lang="dut">Laat Paleolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum_A">
+      <rdfs:label xml:lang="dut">Laat Paleolithicum A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Paleolithicum_B">
+      <rdfs:label xml:lang="dut">Laat Paleolithicum B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Mesolithicum">
+      <rdfs:label xml:lang="dut">Mesolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Mesolithicum">
+      <rdfs:label xml:lang="dut">Vroeg Mesolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Mesolithicum">
+      <rdfs:label xml:lang="dut">Midden Mesolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Mesolithicum">
+      <rdfs:label xml:lang="dut">Laat Mesolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Neolithicum">
+      <rdfs:label xml:lang="dut">Neolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum">
+      <rdfs:label xml:lang="dut">Vroeg Neolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum_A">
+      <rdfs:label xml:lang="dut">Vroeg Neolithicum A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Neolithicum_B">
+      <rdfs:label xml:lang="dut">Vroeg Neolithicum B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum">
+      <rdfs:label xml:lang="dut">Midden Neolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum_A">
+      <rdfs:label xml:lang="dut">Midden Neolithicum A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Neolithicum_B">
+      <rdfs:label xml:lang="dut">Midden Neolithicum B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum">
+      <rdfs:label xml:lang="dut">Laat Neolithicum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum_A">
+      <rdfs:label xml:lang="dut">Laat Neolithicum A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Neolithicum_B">
+      <rdfs:label xml:lang="dut">Laat Neolithicum B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Bronstijd">
+      <rdfs:label xml:lang="dut">Bronstijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Bronstijd">
+      <rdfs:label xml:lang="dut">Vroege Bronstijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd">
+      <rdfs:label xml:lang="dut">Midden Bronstijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd_A">
+      <rdfs:label xml:lang="dut">Midden Bronstijd A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Bronstijd_B">
+      <rdfs:label xml:lang="dut">Midden Bronstijd B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Bronstijd">
+      <rdfs:label xml:lang="dut">Late Bronstijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#IJzertijd">
+      <rdfs:label xml:lang="dut">IJzertijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_IJzertijd">
+      <rdfs:label xml:lang="dut">Vroege IJzertijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_IJzertijd">
+      <rdfs:label xml:lang="dut">Midden IJzertijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_IJzertijd">
+      <rdfs:label xml:lang="dut">Late IJzertijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Protohistorie">
+      <rdfs:label xml:lang="dut">Protohistorie</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Romeinse_Tijd">
+      <rdfs:label xml:lang="dut">Romeinse Tijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd">
+      <rdfs:label xml:lang="dut">Vroeg Romeinse Tijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd_A">
+      <rdfs:label xml:lang="dut">Vroeg Romeinse Tijd A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroeg_Romeinse_Tijd_B">
+      <rdfs:label xml:lang="dut">Vroeg Romeinse Tijd B</rdfs:label>
+      <rdfs:label xml:lang="dut">Julisch</rdfs:label>
+      <rdfs:label xml:lang="dut">Claudisch</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd">
+      <rdfs:label xml:lang="dut">Midden Romeinse Tijd</rdfs:label>
+      <rdfs:label xml:lang="dut">Flavisch</rdfs:label>
+      <rdfs:label xml:lang="dut">Neronisch</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd_A">
+      <rdfs:label xml:lang="dut">Midden Romeinse Tijd A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Midden_Romeinse_Tijd_B">
+      <rdfs:label xml:lang="dut">Midden Romeinse Tijd B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd">
+      <rdfs:label xml:lang="dut">Laat Romeinse Tijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd_A">
+      <rdfs:label xml:lang="dut">Laat Romeinse Tijd A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Laat_Romeinse_Tijd_B">
+      <rdfs:label xml:lang="dut">Laat Romeinse Tijd B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Historie">
+      <rdfs:label xml:lang="dut">Historie</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Middeleeuwen">
+      <rdfs:label xml:lang="dut">Middeleeuwen</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen">
+      <rdfs:label xml:lang="dut">Vroege Middeleeuwen</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_A">
+      <rdfs:label xml:lang="dut">Vroege Middeleeuwen A</rdfs:label>
+      <rdfs:label xml:lang="dut">Volksverhuizingstijd</rdfs:label>
+      <rdfs:label xml:lang="dut">Dark Ages</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_B">
+      <rdfs:label xml:lang="dut">Vroege Middeleeuwen B</rdfs:label>
+      <rdfs:label xml:lang="dut">Merovingisch</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_C">
+      <rdfs:label xml:lang="dut">Vroege Middeleeuwen C</rdfs:label>
+      <rdfs:label xml:lang="dut">Karolingisch</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Vroege_Middeleeuwen_D">
+      <rdfs:label xml:lang="dut">Vroege Middeleeuwen D</rdfs:label>
+      <rdfs:label xml:lang="dut">Ottoons</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen">
+      <rdfs:label xml:lang="dut">Late Middeleeuwen</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen_A">
+      <rdfs:label xml:lang="dut">Late Middeleeuwen A</rdfs:label>
+      <rdfs:label xml:lang="dut">Salisch</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Late_Middeleeuwen_B">
+      <rdfs:label xml:lang="dut">Late Middeleeuwen B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd">
+      <rdfs:label xml:lang="dut">Nieuwe Tijd</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_A">
+      <rdfs:label xml:lang="dut">Nieuwe Tijd A</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_B">
+      <rdfs:label xml:lang="dut">Nieuwe Tijd B</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Nieuwe_Tijd_C">
+      <rdfs:label xml:lang="dut">Nieuwe Tijd C</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Recent">
+      <rdfs:label xml:lang="dut">Recent</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Onbekend">
+      <rdfs:label xml:lang="dut">Onbekend</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Overig">
+      <rdfs:label xml:lang="dut">Overig</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Hoge_Middeleeuwen">
+      <rdfs:label xml:lang="dut">Hoge Middeleeuwen</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Volle_Middeleeuwen">
+      <rdfs:label xml:lang="dut">Volle Middeleeuwen</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Tweede_Wereldoorlog">
+      <rdfs:label xml:lang="dut">Tweede Wereldoorlog</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://tmp/Perioden#Metaaltijden">
+      <rdfs:label xml:lang="dut">Metaaltijden</rdfs:label>
+   </rdf:Description>
+</rdf:RDF>

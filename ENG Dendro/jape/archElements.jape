@@ -1,0 +1,100 @@
+/*
+Andreas Vlachidis 2016
+Matches from AAT Thesaurus
+	a) AAT Architectural Elements
+
+*/
+
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: archElements = "http://tmp/AAT/${n}"
+
+Rule: firstTable
+
+(
+ (
+  {Token.string == "Table"}|
+  {Token.string == "Fig"}|
+  {Token.string == "Figure"}
+ )
+ {Token.kind == number}
+)
+:match
+-->
+{}
+
+Rule: archElementsLookup
+(
+	{Lookup.class == [archElements n=architectural_elements]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"archElements", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n archElementsLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: archElementsLookup
+(
+	{Lookup.class == [archElements n=timbers_wood_by_form]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"archElements", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n archElementsLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: houtMatch
+(
+	{Token.string ==~ "[Ww]ood"}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    Annotation matchedAnn = (gate.Annotation)matchedAS.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features.put("Identifier", "http://vocab.getty.edu/aat/300011914");
+    features.put("class", "http://tmp/AAT/wood_plant_material");
+    features.put("URI", "http://tmp/AAT/wood_plant_material");
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"archElements", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n houtMatch");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

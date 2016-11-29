@@ -1,0 +1,10 @@
+Phase: OntoMatching
+Input: tempMaterial Time_Appellation
+Options: control = appelt
+
+Rule:Temp
+(
+	{!Time_Appellation, tempMaterial}
+):match
+-->
+:match.Time_Appellation = {}

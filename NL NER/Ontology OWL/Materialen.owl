@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://tmp/RCEMaterialen#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:psys="http://proton.semanticweb.org/protonsys#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:pext="http://proton.semanticweb.org/protonext#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zilver">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen_kwartsiet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandige_kalksteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#wasserstein">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#vuursteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#volvic">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_aver">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Tinos">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Patricia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Issorie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#valkenburg">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#uitvloeiingsgesteente">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tufsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#trachiet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#textiel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tefriet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#stollingsgesteente">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#steen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#staal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#sedimentaire_natuursteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#schelp">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rouge_royal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_antico">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_Verona">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosa_portogallo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rijckholt">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#portoro">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#polijstbare_kalksteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#plantaardig">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#pierre_de_Vinalmont">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_rosato">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_grigio">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#overig">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#organisch">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ophicalciet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#onbekend">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#oker">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#noordelijk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#natuursteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#monsters">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metamorfe_natuursteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metaal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#messing">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#mergel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#menselijk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marmer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marbre_noir_de_Golzinne">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#macroresten_zaden">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lydiet_phtaniet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lood">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ligniet_sapropeliet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leisteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kwartsiet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#koper">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kleischalie_kleisteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kiezelgeode">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#keramiek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kalksteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jura">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jaumont">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jadeit">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ivoor">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzeroer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#houtskool">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hout">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hoorn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helleflint">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helgoland">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris_rose">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#griotte">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#grauwacke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#graniet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#goud">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#glas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#git">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gietijzer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#giallo_di_Siena">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gewei">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gemengd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ganggesteente">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gabbro">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dioriet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dierlijk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dieptegesteente">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#diabaas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#cipollino">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#brons">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_menselijk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_dierlijk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bois_Jourdan">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bianco_Carrara">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bergkristal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basaltlava">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basalt">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#barnsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bardiglio">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#balmoral">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#arabescato">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#anstrude">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#amfiboliet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#alta_kwartsiet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#albast">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weidenhahn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weiberner_tufsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Udelfanger_zandsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Toscaanse_travertin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Tepla_trachiet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Spaanse_albast">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Solnhofener">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Savonnieres">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Saint_Maximin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romer_tufsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romaanse_travertin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Portland">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Oland">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Obernkirchner_zandsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Nottingham_albast">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Niedermendiger_basaltlava">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Napoleon">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Materials">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Massangis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Magny">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Londorfer_basaltlava">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Krensheimer_muschelkalksteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Kirchheimer_muschelkalksteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ierse_hardsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Gobertange">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Euville">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ettringer_tufsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Comblanchien">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Brauvilliers">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Bentheimer_zandsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Belgische_hardsteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Beiers_graniet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Baumberger_kalksteen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Balegemse_steen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ascolaanse_travertin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zilver">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen_kwartsiet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandige_kalksteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#wasserstein">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#vuursteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#steen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#volvic">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#basaltlava"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_aver">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#ophicalciet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Tinos">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#ophicalciet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Patricia">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#ophicalciet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Issorie">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#ophicalciet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#valkenburg">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#vuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#uitvloeiingsgesteente">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#stollingsgesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tufsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#trachiet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#uitvloeiingsgesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tin">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#textiel">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#organisch"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tefriet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#basaltlava"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#stollingsgesteente">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#steen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#staal">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#sedimentaire_natuursteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#schelp">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dierlijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rouge_royal">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_antico">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_Verona">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosa_portogallo">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rijckholt">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#vuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#portoro">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#polijstbare_kalksteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#plantaardig">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#organisch"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#pierre_de_Vinalmont">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_rosato">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#tufsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_grigio">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#tufsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#overig">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#steen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#organisch">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ophicalciet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metamorfe_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#onbekend">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#oker">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#noordelijk">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#vuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#natuursteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#steen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#monsters">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metamorfe_natuursteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metaal">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#messing">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#mergel">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#menselijk">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#organisch"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marmer">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metamorfe_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marbre_noir_de_Golzinne">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#macroresten_zaden">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#plantaardig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lydiet_phtaniet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lood">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ligniet_sapropeliet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leisteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leer">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dierlijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kwartsiet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metamorfe_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#koper">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kleischalie_kleisteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kiezelgeode">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#keramiek">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kalksteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jura">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jaumont">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jadeit">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ivoor">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dierlijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzeroer">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzer">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#houtskool">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#plantaardig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hout">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#plantaardig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hoorn">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dierlijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helleflint">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helgoland">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#vuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris_rose">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#griotte">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#grauwacke">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#graniet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dieptegesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#goud">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#glas">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#git">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gietijzer">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#giallo_di_Siena">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gewei">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dierlijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gemengd">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#Materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ganggesteente">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#stollingsgesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gabbro">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dioriet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dierlijk">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#organisch"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dieptegesteente">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#stollingsgesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#diabaas">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#ganggesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#cipollino">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#brons">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#metaal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_menselijk">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#menselijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_dierlijk">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#dierlijk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#organisch"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bois_Jourdan">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bianco_Carrara">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bergkristal">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basaltlava">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#uitvloeiingsgesteente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basalt">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#barnsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bardiglio">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#balmoral">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#graniet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#arabescato">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#marmer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#anstrude">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#amfiboliet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#overig"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#alta_kwartsiet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kwartsiet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#albast">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#sedimentaire_natuursteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weidenhahn">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#trachiet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weiberner_tufsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#tufsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Udelfanger_zandsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Toscaanse_travertin">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Tepla_trachiet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#trachiet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Spaanse_albast">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#albast"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Solnhofener">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Savonnieres">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Saint_Maximin">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romer_tufsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#tufsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romaanse_travertin">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Portland">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Oland">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Obernkirchner_zandsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Nottingham_albast">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#albast"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Niedermendiger_basaltlava">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#basaltlava"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Napoleon">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Massangis">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Magny">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Londorfer_basaltlava">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#basaltlava"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Krensheimer_muschelkalksteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Kirchheimer_muschelkalksteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ierse_hardsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Gobertange">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandige_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Euville">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ettringer_tufsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#tufsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Comblanchien">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Brauvilliers">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Bentheimer_zandsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandsteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Belgische_hardsteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Beiers_graniet">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#graniet"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Baumberger_kalksteen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandige_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Balegemse_steen">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#zandige_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ascolaanse_travertin">
+	<rdfs:subClassOf rdf:resource="http://tmp/RCEMaterialen#polijstbare_kalksteen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zilver">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/9f0f3c4e-7289-44c2-ba3b-6708c930b54c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen_kwartsiet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/0eed1aa2-7d3c-4d67-9eb4-f370353e4429</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/0d5314ad-8c2e-47af-9e8f-c0a759528cf7</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandige_kalksteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/1542b1c2-f2ce-4142-908d-438b01849d79</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#wasserstein">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/4d53f755-c412-40d5-af87-9f81b3279159</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#vuursteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/30c0a7a1-ef70-4410-b55b-8381953a91c1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#volvic">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/58bffec3-6b2a-4f15-9518-ce1d79a9688d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_aver">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/6d622d6b-e444-4049-9c1a-1d56147e004d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Tinos">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/1704339c-ceea-493c-b425-31bcf13504b1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Patricia">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/f07a5eb8-6c9a-47d2-b023-37f759e148af</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Issorie">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d02ea03f-0866-4b1e-829c-793d24fc598e</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#valkenburg">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e68320bb-4a0f-4f08-82f8-5b01b9fb33cb</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#uitvloeiingsgesteente">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/825a5daf-6c31-4a7c-9ff2-927185c7d6ae</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tufsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/79f5550a-6adf-4699-9338-3b47e5a3240f</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#trachiet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/cb34b9c2-6d8c-4110-aa7e-acc8babbcdd9</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tin">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/8707b0b2-e283-4888-b7c4-f9deb9bd639e</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#textiel">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/8f8aef5a-7681-40f6-b707-ede71326f127</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tefriet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/44b004df-1a31-4fc8-af99-ab16c3619c94</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#stollingsgesteente">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/64e8f1a7-4ab8-4ae7-ac1b-dbcea2e875f8</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#steen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/06703a2b-30d3-422e-8cb4-15a933fba4b2</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#staal">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/c8375588-5663-40fa-9862-c05a63d09481</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#sedimentaire_natuursteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/75f7f02d-8a58-400b-8448-bfe368ce0a07</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#schelp">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/c152ac7a-b7c9-4f8c-9a58-9f0993c84571</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rouge_royal">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/28875f6a-2439-41dd-983e-bd1714e234f7</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_antico">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/14733800-f23f-4199-b15a-0db8f4e62e1c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_Verona">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/27eccf59-f55a-487a-8b52-a143cabbe39e</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosa_portogallo">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/40dd9b2c-7ad7-4f73-b39c-b12b50de683a</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rijckholt">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/de55b904-f735-4ef1-a559-e76f787d6c28</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#portoro">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b14864c8-b86f-4ffd-810e-2fe504423754</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#polijstbare_kalksteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/7b9432f4-b9d4-474d-ad76-a6f7b39b52d8</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#plantaardig">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d78c6ca3-251d-4317-9fea-021d7349c7de</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#pierre_de_Vinalmont">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/c2fe9f78-6afa-4819-a378-5cb6d7056682</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_rosato">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a257e659-5905-4e35-8702-df42bb22c7b8</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_grigio">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a1be9122-cf34-4c42-bade-a1dfbcbe889a</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#overig">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/46e501c7-e70a-4b1f-aa58-d7738cf6e31e</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#organisch">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/947edd03-11c8-4ea8-82ce-7008127e2e2d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ophicalciet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e5f217cc-92d8-4f8f-a835-f4f081132529</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#onbekend">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/69cffcca-61fd-4cf4-a938-db449e6da4f3</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#oker">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/ea3efd45-0d7d-452c-95e5-bb7a0c696c17</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#noordelijk">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/83329917-8b86-40dd-8a04-b4af26dfd797</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#natuursteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a44f5f8b-d66c-405c-b927-f8fee82ca66d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#monsters">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/4435340e-3a36-43c4-8353-bf99deaed069</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metamorfe_natuursteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/4e728b1c-fae7-4ba9-b893-6dcefeaddc0c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metaal">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/4670d435-a7e5-4ef9-9217-220e8ba4f2cb</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#messing">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/179c6263-f463-4bf9-bfd3-610f87336dd9</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#mergel">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/c8ae07f4-b8fb-4c05-9917-fd5369be4c4d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#menselijk">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d553d2f5-4d8a-4277-8c75-127cc9b2f0bf</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marmer">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/9ddf0311-08a5-45ee-92ed-0d996b3a3c1b</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marbre_noir_de_Golzinne">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/aac846ca-ca89-4329-a314-fa453745af5b</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#macroresten_zaden">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/1352d20f-336e-4d6b-a16d-d16e95c86cb1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lydiet_phtaniet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/5a84f7e6-2e44-4324-8ef6-cb4810373e46</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lood">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/46161b2f-65a5-430a-b253-ef167c529c7b</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ligniet_sapropeliet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/518e14b4-9889-4f4d-807c-b19241de6e7d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leisteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e10245f1-4e69-4223-9fa8-d6595af49bb1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leer">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/20ae8630-3a10-4e80-bc92-9b6ef8ba50ad</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kwartsiet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/eedc4fa0-6d91-4b3b-af44-8c4956e89ae7</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#koper">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/0de13003-1563-46f1-8b11-f779f9bc1207</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kleischalie_kleisteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/5f0b8078-8203-4519-b702-f013c59e4300</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kiezelgeode">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/ba0e6e83-0d49-4d0c-9ae1-398f83f64e53</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#keramiek">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/7801ec06-bca5-47af-a7a8-d515fcded659</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kalksteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e482151c-4c8e-41a2-bbec-c1d46694e378</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jura">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/368ac824-c65a-441c-904d-3bbfc599bc22</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jaumont">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/3a1ccb95-4fe0-45fe-b046-de00a797a697</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jadeit">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/0410fcc4-251e-4476-96ba-f1b09b4714e4</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ivoor">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d8823f9b-dab4-4aa2-9e75-1b9631ec21b3</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzeroer">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/64a72826-8faa-4175-84e7-11e63bc9162a</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzer">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/084e09bb-99cd-40ed-9ac0-95b8c85cde88</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#houtskool">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/c86f795a-12ac-4e5c-8dbe-46409327a7a2</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hout">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/47e67e09-19df-4a31-9730-b622253203cf</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hoorn">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/bb31ac69-06a2-41a1-8bbb-34182b221b10</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helleflint">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/f917e726-c604-4476-aa75-40ffe5ec3531</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helgoland">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b1762ef7-8399-4fa2-af46-44f115cbba2a</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris_rose">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d10f0b11-615a-4538-81f6-1685ccb6c786</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d48b336a-2fe3-4a83-a8b7-4dcad0879849</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#griotte">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/256b0202-d84e-4ae7-b35a-7f6c17a131a3</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#grauwacke">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/2fe0963c-ddef-4f46-a8bd-6e40f509014d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#graniet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a32b5be4-4a9c-418f-811f-8e47ced5be03</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#goud">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/f4ca514a-aa23-4176-b1f0-b0d65a364187</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#glas">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b5fd6cbb-4ec8-4f1a-a612-06bcda91ea75</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#git">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e03d9122-6edb-458d-b034-5d82d13724c1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gietijzer">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/52b6ad8e-2076-4187-92ce-67289b7637a9</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#giallo_di_Siena">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/800dee54-8ee8-4803-9d40-e79b964082e5</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gewei">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e1ccc723-f2e5-46aa-af03-c08195c2395e</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gemengd">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e0983fd6-d0d9-4590-89a0-857922aee64c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ganggesteente">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/cdd902ac-87d3-46f0-a937-cc6dad152dd1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gabbro">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a0f0e7ff-9919-471f-beef-559f76eeca65</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dioriet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/972c7e5e-f92e-4316-9a25-6ffbea43bd79</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dierlijk">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/8dd39060-9a0e-4165-94b8-d8ddb4ab30b2</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dieptegesteente">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/ce5e2d15-a78b-42a8-ad0a-85ec4aa014f1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#diabaas">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/6e26fceb-db50-43ac-8f65-5fa7add96c0d</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#cipollino">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/ce6bd88d-a10f-4288-b2b6-26e9a1b09b1c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#brons">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/cc4cdd0b-4029-482c-9cb7-e56f0ed7c12a</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_menselijk">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/8c8a5eaa-86d0-41fc-bb56-7fdb57394893</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_dierlijk">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/6110a1ed-4a65-4fda-9359-b0ebb4177beb</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/8d84a404-c6fb-41e6-915f-293453403ca9</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bois_Jourdan">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b4ed1e65-c27a-4f8e-86bb-84fe7d22cd0b</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bianco_Carrara">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/4ae73cf6-a4e2-43fd-85b4-884cd03afe2f</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bergkristal">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/15267059-dded-44ab-a3fe-1360f7dcd0a3</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basaltlava">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/39ee5e39-c81e-4bd4-9d20-b6d4c8040b88</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basalt">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a799b505-798a-4dfe-9ada-5c6b42b0c2d4</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#barnsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/5b536b2c-f0e1-4b54-8766-6f7d7eb285e0</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bardiglio">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/6238ebcd-a789-4376-922d-69d24d34544f</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#balmoral">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/20bac21c-8eb1-401d-9f9d-9fa8ffa5b1ef</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#arabescato">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/f4912ed5-2cf6-47a0-ab47-74f8d1a7e432</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#anstrude">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/168d0c76-7323-4ea7-a638-e6dd765b4a7f</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#amfiboliet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b0e67aff-f9ec-4e53-a674-7bf2ef1c9f5c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#alta_kwartsiet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/44a9a2e1-1acd-42e8-9701-141eabc1d814</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#albast">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e8e567cd-ff13-42f8-8a96-58acb4eb0332</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weidenhahn">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/251f6f8d-91bb-4ae6-b778-30c483280eda</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weiberner_tufsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/1a0fb3de-0070-4a2b-8b88-ad1051bccb5f</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Udelfanger_zandsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b5fd2f96-7ccb-43d8-bf27-3ea2343330ce</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Toscaanse_travertin">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/01315d87-101a-420f-96a3-e23f60480b64</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Tepla_trachiet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/525bd278-802e-497c-bc70-20647ef39e2b</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Spaanse_albast">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/b99da70c-d5d0-4838-ad7d-faa47eaee80c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Solnhofener">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/9ddd1510-76c6-40d2-968c-627e35cf94a8</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Savonnieres">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/1f7f092c-81c4-4a56-9150-545831aa3eb0</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Saint_Maximin">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/5fa5e59b-a740-4afc-9658-e1aa1da5eb8b</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romer_tufsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/08781db6-cb95-4710-84dc-786dd44988bf</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romaanse_travertin">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/17f50d06-76db-4ffa-80b1-da99e9e9e7a3</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Portland">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/f301d157-9650-4b85-866e-5b1b55c387f5</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Oland">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/97160f21-c195-46aa-89f8-01f5006bf9e4</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Obernkirchner_zandsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/93aa76e8-5abf-4472-84c3-cc6eab5a5ed0</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Nottingham_albast">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/81d144b7-59ca-457c-8f72-a4cb328d931e</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Niedermendiger_basaltlava">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/d3b5d51f-58db-46ad-ae48-7a3ddb74ff7c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Napoleon">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/fad847b3-bf12-4254-9571-b20fb517b536</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Materials">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/bc3e12d6-ccf3-4f28-b47d-6f9424cb8b17</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Massangis">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/724ab3a5-f3fc-498b-9d90-ebd8bfbeccc1</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Magny">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/6b31f490-3c58-4fce-8e61-787161374b53</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Londorfer_basaltlava">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/2be933dc-92bf-409e-90c7-20c9b03b5b18</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Krensheimer_muschelkalksteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/2390a0ca-5837-49fc-be10-eeddc5b682e4</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Kirchheimer_muschelkalksteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/a0928f83-aeda-4756-9dbe-c9520ae01a3c</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ierse_hardsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/9ba43955-9423-4a69-b2ed-402893628333</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Gobertange">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/ecaec6db-a9e6-4c19-ab5e-d84ccd4c7db7</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Euville">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/df8435a5-b0cf-48d4-9bd7-cfc6fdffffe6</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ettringer_tufsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/e1f56b2f-e688-436b-9bd6-182e0ceff039</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Comblanchien">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/f0d9f320-4ffa-4f11-9e1f-c47c46c7e9b5</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Brauvilliers">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/ad4253e8-7dd8-458d-9029-c57275dd5b74</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Bentheimer_zandsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/2ee08884-357a-418c-87f0-a4fdd72b34ca</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Belgische_hardsteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/58ec13b6-88f8-4385-9702-6f8c0494da86</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Beiers_graniet">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/9cab12dc-70da-4ab7-9f77-00b36147a4cc</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Baumberger_kalksteen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/38f0cd0d-beba-48aa-b4f7-ea73991db935</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Balegemse_steen">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/c27b611d-e568-4a7a-8ed3-e5f21d8eaae0</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ascolaanse_travertin">
+	<rdfs:seeAlso>http://www.rnaproject.org/data/06a047e1-946d-40dd-946b-2c21de3324d8</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zilver">
+	<rdfs:label xml:lang="dut">zilver</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen_kwartsiet">
+	<rdfs:label xml:lang="dut">zandsteen/kwartsiet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen">
+	<rdfs:label xml:lang="dut">zandsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandige_kalksteen">
+	<rdfs:label xml:lang="dut">zandige kalksteen</rdfs:label>
+	<rdfs:label xml:lang="dut">kalkzandsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#wasserstein">
+	<rdfs:label xml:lang="dut">wasserstein</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#vuursteen">
+	<rdfs:label xml:lang="dut">vuursteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#volvic">
+	<rdfs:label xml:lang="dut">volvic</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_aver">
+	<rdfs:label xml:lang="dut">verde aver</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Tinos">
+	<rdfs:label xml:lang="dut">verde Tinos</rdfs:label>
+	<rdfs:label xml:lang="dut">Tinos green</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Patricia">
+	<rdfs:label xml:lang="dut">verde Patricia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Issorie">
+	<rdfs:label xml:lang="dut">verde Issorie</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#valkenburg">
+	<rdfs:label xml:lang="dut">valkenburg</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#uitvloeiingsgesteente">
+	<rdfs:label xml:lang="dut">uitvloeiingsgesteente</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tufsteen">
+	<rdfs:label xml:lang="dut">tufsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#trachiet">
+	<rdfs:label xml:lang="dut">trachiet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tin">
+	<rdfs:label xml:lang="dut">tin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#textiel">
+	<rdfs:label xml:lang="dut">textiel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tefriet">
+	<rdfs:label xml:lang="dut">tefriet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#stollingsgesteente">
+	<rdfs:label xml:lang="dut">stollingsgesteente</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#steen">
+	<rdfs:label xml:lang="dut">steen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#staal">
+	<rdfs:label xml:lang="dut">staal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#sedimentaire_natuursteen">
+	<rdfs:label xml:lang="dut">sedimentaire natuursteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#schelp">
+	<rdfs:label xml:lang="dut">schelp</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rouge_royal">
+	<rdfs:label xml:lang="dut">rouge royal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_antico">
+	<rdfs:label xml:lang="dut">rosso antico</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_Verona">
+	<rdfs:label xml:lang="dut">rosso Verona</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosa_portogallo">
+	<rdfs:label xml:lang="dut">rosa portogallo</rdfs:label>
+	<rdfs:label xml:lang="dut">rosa esterémoz</rdfs:label>
+	<rdfs:label xml:lang="dut">rosa aurora</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rijckholt">
+	<rdfs:label xml:lang="dut">rijckholt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#portoro">
+	<rdfs:label xml:lang="dut">portoro</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#polijstbare_kalksteen">
+	<rdfs:label xml:lang="dut">polijstbare kalksteen</rdfs:label>
+	<rdfs:label xml:lang="dut">marmer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#plantaardig">
+	<rdfs:label xml:lang="dut">plantaardig</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#pierre_de_Vinalmont">
+	<rdfs:label xml:lang="dut">pierre de Vinalmont</rdfs:label>
+	<rdfs:label xml:lang="dut">Namense steen</rdfs:label>
+	<rdfs:label xml:lang="dut">Naamse steen</rdfs:label>
+	<rdfs:label xml:lang="dut">Maassteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_rosato">
+	<rdfs:label xml:lang="dut">peperino rosato</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_grigio">
+	<rdfs:label xml:lang="dut">peperino grigio</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#overig">
+	<rdfs:label xml:lang="dut">overig</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#organisch">
+	<rdfs:label xml:lang="dut">organisch</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ophicalciet">
+	<rdfs:label xml:lang="dut">ophicalciet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#onbekend">
+	<rdfs:label xml:lang="dut">onbekend</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#oker">
+	<rdfs:label xml:lang="dut">oker</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#noordelijk">
+	<rdfs:label xml:lang="dut">noordelijk</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#natuursteen">
+	<rdfs:label xml:lang="dut">natuursteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#monsters">
+	<rdfs:label xml:lang="dut">monsters</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metamorfe_natuursteen">
+	<rdfs:label xml:lang="dut">metamorfgesteente</rdfs:label>
+	<rdfs:label xml:lang="dut">metamorfe natuursteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metaal">
+	<rdfs:label xml:lang="dut">metaal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#messing">
+	<rdfs:label xml:lang="dut">messing</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#mergel">
+	<rdfs:label xml:lang="dut">sichemer steen</rdfs:label>
+	<rdfs:label xml:lang="dut">sibbesteen</rdfs:label>
+	<rdfs:label xml:lang="dut">mergel</rdfs:label>
+	<rdfs:label xml:lang="dut">Valkenburger steen</rdfs:label>
+	<rdfs:label xml:lang="dut">Maastrichtse steen</rdfs:label>
+	<rdfs:label xml:lang="dut">Maastrichts krijt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#menselijk">
+	<rdfs:label xml:lang="dut">menselijk</rdfs:label>
+	<rdfs:label xml:lang="dut">bot</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marmer">
+	<rdfs:label xml:lang="dut">marmer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marbre_noir_de_Golzinne">
+	<rdfs:label xml:lang="dut">zwart van Mazy</rdfs:label>
+	<rdfs:label xml:lang="dut">zwart marmer</rdfs:label>
+	<rdfs:label xml:lang="dut">marbre noir de Golzinne</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#macroresten_zaden">
+	<rdfs:label xml:lang="dut">macroresten/zaden</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lydiet_phtaniet">
+	<rdfs:label xml:lang="dut">phtaniet</rdfs:label>
+	<rdfs:label xml:lang="dut">lydiet/phtaniet</rdfs:label>
+	<rdfs:label xml:lang="dut">lydiet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lood">
+	<rdfs:label xml:lang="dut">lood</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ligniet_sapropeliet">
+	<rdfs:label xml:lang="dut">sapropeliet</rdfs:label>
+	<rdfs:label xml:lang="dut">ligniet/sapropeliet</rdfs:label>
+	<rdfs:label xml:lang="dut">ligniet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leisteen">
+	<rdfs:label xml:lang="dut">leisteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leer">
+	<rdfs:label xml:lang="dut">leer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kwartsiet">
+	<rdfs:label xml:lang="dut">kwartsiet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#koper">
+	<rdfs:label xml:lang="dut">koper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kleischalie_kleisteen">
+	<rdfs:label xml:lang="dut">kleisteen</rdfs:label>
+	<rdfs:label xml:lang="dut">kleischalie/kleisteen</rdfs:label>
+	<rdfs:label xml:lang="dut">kleischalie</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kiezelgeode">
+	<rdfs:label xml:lang="dut">kiezelgeode</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#keramiek">
+	<rdfs:label xml:lang="dut">keramiek</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kalksteen">
+	<rdfs:label xml:lang="dut">kalksteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jura">
+	<rdfs:label xml:lang="dut">jura</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jaumont">
+	<rdfs:label xml:lang="dut">jaumont</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jadeit">
+	<rdfs:label xml:lang="dut">jadeit</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ivoor">
+	<rdfs:label xml:lang="dut">ivoor</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzeroer">
+	<rdfs:label xml:lang="dut">ijzeroer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzer">
+	<rdfs:label xml:lang="dut">ijzer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#houtskool">
+	<rdfs:label xml:lang="dut">houtskool</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hout">
+	<rdfs:label xml:lang="dut">hout</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hoorn">
+	<rdfs:label xml:lang="dut">hoorn</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helleflint">
+	<rdfs:label xml:lang="dut">helleflint</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helgoland">
+	<rdfs:label xml:lang="dut">helgoland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris_rose">
+	<rdfs:label xml:lang="dut">gris rosé</rdfs:label>
+	<rdfs:label xml:lang="dut">byzantin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris">
+	<rdfs:label xml:lang="dut">gris</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#griotte">
+	<rdfs:label xml:lang="dut">griotte</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#grauwacke">
+	<rdfs:label xml:lang="dut">grauwacke</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#graniet">
+	<rdfs:label xml:lang="dut">graniet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#goud">
+	<rdfs:label xml:lang="dut">goud</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#glas">
+	<rdfs:label xml:lang="dut">glas</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#git">
+	<rdfs:label xml:lang="dut">git</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gietijzer">
+	<rdfs:label xml:lang="dut">gietijzer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#giallo_di_Siena">
+	<rdfs:label xml:lang="dut">giallo di Siena</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gewei">
+	<rdfs:label xml:lang="dut">gewei</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gemengd">
+	<rdfs:label xml:lang="dut">gemengd</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ganggesteente">
+	<rdfs:label xml:lang="dut">ganggesteente</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gabbro">
+	<rdfs:label xml:lang="dut">gabbro</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dioriet">
+	<rdfs:label xml:lang="dut">dioriet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dierlijk">
+	<rdfs:label xml:lang="dut">dierlijk</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dieptegesteente">
+	<rdfs:label xml:lang="dut">dieptegesteente</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#diabaas">
+	<rdfs:label xml:lang="dut">diabaas</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#cipollino">
+	<rdfs:label xml:lang="dut">cipollino</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#brons">
+	<rdfs:label xml:lang="dut">brons</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_menselijk">
+	<rdfs:label xml:lang="dut">bot, menselijk</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_dierlijk">
+	<rdfs:label xml:lang="dut">bot, dierlijk</rdfs:label>
+	<rdfs:label xml:lang="dut">bot</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot">
+	<rdfs:label xml:lang="dut">bot</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bois_Jourdan">
+	<rdfs:label xml:lang="dut">bois Jourdan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bianco_Carrara">
+	<rdfs:label xml:lang="dut">wit marmer</rdfs:label>
+	<rdfs:label xml:lang="dut">bianco Carrara</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bergkristal">
+	<rdfs:label xml:lang="dut">bergkristal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basaltlava">
+	<rdfs:label xml:lang="dut">basaltlava</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basalt">
+	<rdfs:label xml:lang="dut">basalt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#barnsteen">
+	<rdfs:label xml:lang="dut">barnsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bardiglio">
+	<rdfs:label xml:lang="dut">bardiglio</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#balmoral">
+	<rdfs:label xml:lang="dut">balmoral</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#arabescato">
+	<rdfs:label xml:lang="dut">arabescato</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#anstrude">
+	<rdfs:label xml:lang="dut">anstrude</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#amfiboliet">
+	<rdfs:label xml:lang="dut">amfiboliet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#alta_kwartsiet">
+	<rdfs:label xml:lang="dut">alta kwartsiet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#albast">
+	<rdfs:label xml:lang="dut">albast</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weidenhahn">
+	<rdfs:label xml:lang="dut">Weidenhahn</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weiberner_tufsteen">
+	<rdfs:label xml:lang="dut">Weiberner tufsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Udelfanger_zandsteen">
+	<rdfs:label xml:lang="dut">Udelfanger zandsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Toscaanse_travertin">
+	<rdfs:label xml:lang="dut">Toscaanse travertin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Tepla_trachiet">
+	<rdfs:label xml:lang="dut">Tepla trachiet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Spaanse_albast">
+	<rdfs:label xml:lang="dut">Spaanse albast</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Solnhofener">
+	<rdfs:label xml:lang="dut">Solnhofener</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Savonnieres">
+	<rdfs:label xml:lang="dut">Savonnières</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Saint_Maximin">
+	<rdfs:label xml:lang="dut">Saint-Maximin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romer_tufsteen">
+	<rdfs:label xml:lang="dut">Römer tufsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romaanse_travertin">
+	<rdfs:label xml:lang="dut">Romaanse travertin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Portland">
+	<rdfs:label xml:lang="dut">Portland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Oland">
+	<rdfs:label xml:lang="dut">Öland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Obernkirchner_zandsteen">
+	<rdfs:label xml:lang="dut">Wezer zandsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Stadhagener zandsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Obernkirchner zandsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Bückberger zandsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Bremer zandsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Nottingham_albast">
+	<rdfs:label xml:lang="dut">Nottingham albast</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Niedermendiger_basaltlava">
+	<rdfs:label xml:lang="dut">Niedermendiger basaltlava</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Napoleon">
+	<rdfs:label xml:lang="dut">Napoleon</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Materials">
+	<rdfs:label xml:lang="dut">Materialen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Massangis">
+	<rdfs:label xml:lang="dut">Massangis</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Magny">
+	<rdfs:label xml:lang="dut">Magny</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Londorfer_basaltlava">
+	<rdfs:label xml:lang="dut">Londorfer basaltlava</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Krensheimer_muschelkalksteen">
+	<rdfs:label xml:lang="dut">Krensheimer muschelkalksteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Kirchheimer_muschelkalksteen">
+	<rdfs:label xml:lang="dut">Kirchheimer muschelkalksteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ierse_hardsteen">
+	<rdfs:label xml:lang="dut">Ierse hardsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Gobertange">
+	<rdfs:label xml:lang="dut">gobertinge-steen</rdfs:label>
+	<rdfs:label xml:lang="dut">brusseliaan</rdfs:label>
+	<rdfs:label xml:lang="dut">Gobertange-steen</rdfs:label>
+	<rdfs:label xml:lang="dut">Gobertange</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Euville">
+	<rdfs:label xml:lang="dut">Euville</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ettringer_tufsteen">
+	<rdfs:label xml:lang="dut">Ettringer tufsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Comblanchien">
+	<rdfs:label xml:lang="dut">Comblanchien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Brauvilliers">
+	<rdfs:label xml:lang="dut">Brauvilliers</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Bentheimer_zandsteen">
+	<rdfs:label xml:lang="dut">Bentheimer zandsteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Belgische_hardsteen">
+	<rdfs:label xml:lang="dut">stoepsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">stinksteen</rdfs:label>
+	<rdfs:label xml:lang="dut">kolenkalksteen</rdfs:label>
+	<rdfs:label xml:lang="dut">carboonkalksteen</rdfs:label>
+	<rdfs:label xml:lang="dut">blauwsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">blauwe steen</rdfs:label>
+	<rdfs:label xml:lang="dut">arduin</rdfs:label>
+	<rdfs:label xml:lang="dut">Escauzijnse steen</rdfs:label>
+	<rdfs:label xml:lang="dut">Belgische hardsteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Belgisch graniet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Beiers_graniet">
+	<rdfs:label xml:lang="dut">Beiers graniet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Baumberger_kalksteen">
+	<rdfs:label xml:lang="dut">Munstersteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Baumberger kalksteen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Balegemse_steen">
+	<rdfs:label xml:lang="dut">lediaanse steen</rdfs:label>
+	<rdfs:label xml:lang="dut">ledesteen</rdfs:label>
+	<rdfs:label xml:lang="dut">dendersteen</rdfs:label>
+	<rdfs:label xml:lang="dut">Balegemse steen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ascolaanse_travertin">
+	<rdfs:label xml:lang="dut">Ascolaanse travertin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zilver">
+	<dcterms:identifier>http://www.rnaproject.org/data/6ac4ddda-0811-41e2-8d2c-02ac33ac7f7d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen_kwartsiet">
+	<dcterms:identifier>http://www.rnaproject.org/data/a8c1571b-df80-44cd-a3f6-49b77208f755</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/11ceb732-d787-4f98-93ad-efe57f2a58a7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#zandige_kalksteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/782ce97d-b2a0-4458-a4e2-27ea0d8b734b</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#wasserstein">
+	<dcterms:identifier>http://www.rnaproject.org/data/ce7f8877-bc4d-4773-830e-55d9d4cb7ad5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#vuursteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/373ce464-945c-4413-8e64-81ccf0d16190</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#volvic">
+	<dcterms:identifier>http://www.rnaproject.org/data/afb27093-6650-4a97-bd2b-e1574b672ba1</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_aver">
+	<dcterms:identifier>http://www.rnaproject.org/data/9432b745-8478-4df7-823f-6142d3502afe</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Tinos">
+	<dcterms:identifier>http://www.rnaproject.org/data/c17b1f6d-c2e4-4f31-a6e1-18597ab7d2cf</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Patricia">
+	<dcterms:identifier>http://www.rnaproject.org/data/36c4d0e6-f195-4744-ae94-d1b87277442a</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#verde_Issorie">
+	<dcterms:identifier>http://www.rnaproject.org/data/db59eded-376e-4c6f-9699-3ba04fcf1766</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#valkenburg">
+	<dcterms:identifier>http://www.rnaproject.org/data/12a2c44f-17b9-4995-96eb-9cc51f23a2d8</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#uitvloeiingsgesteente">
+	<dcterms:identifier>http://www.rnaproject.org/data/e7112e33-7479-4ea6-b8bd-ffd980696624</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tufsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/9aaaa32f-6dc4-4bc1-8c79-0e167f572047</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#trachiet">
+	<dcterms:identifier>http://www.rnaproject.org/data/1c175072-07de-449b-b8e5-8561504fa584</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tin">
+	<dcterms:identifier>http://www.rnaproject.org/data/96217a47-97f2-43ab-9bc8-5d0b2a993470</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#textiel">
+	<dcterms:identifier>http://www.rnaproject.org/data/80f9ece1-1ccb-495c-a99c-27a7cc26b962</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#tefriet">
+	<dcterms:identifier>http://www.rnaproject.org/data/f49bccae-534c-4d2e-9ceb-95c2444abbc9</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#stollingsgesteente">
+	<dcterms:identifier>http://www.rnaproject.org/data/588056cb-c30f-41f9-9f03-62a660ada781</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#steen">
+	<dcterms:identifier>http://www.rnaproject.org/data/bdf88d35-eeae-49c0-99a7-043b4387638d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#staal">
+	<dcterms:identifier>http://www.rnaproject.org/data/e420614a-9edc-4314-a1f2-556ed2bf0408</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#sedimentaire_natuursteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/2897291e-870a-4d07-8cf8-408806fa0bd7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#schelp">
+	<dcterms:identifier>http://www.rnaproject.org/data/0799b554-4e42-40fc-aeed-355b7fa3bb89</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rouge_royal">
+	<dcterms:identifier>http://www.rnaproject.org/data/4a3db99d-857e-4776-932e-3b8946579674</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_antico">
+	<dcterms:identifier>http://www.rnaproject.org/data/2f2a76dc-55c7-4a3a-a99f-d666172af362</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosso_Verona">
+	<dcterms:identifier>http://www.rnaproject.org/data/9371a5d7-257b-4ebc-91cf-004311caf00a</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rosa_portogallo">
+	<dcterms:identifier>http://www.rnaproject.org/data/89dbe52c-3714-45fb-959f-442614f8a1a7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#rijckholt">
+	<dcterms:identifier>http://www.rnaproject.org/data/ac6c5c9a-eacd-4677-addc-2cf1a787d5ab</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#portoro">
+	<dcterms:identifier>http://www.rnaproject.org/data/4c8b3abc-39bc-42a8-ae4a-ba58f59bf9bc</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#polijstbare_kalksteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/592c1c44-9483-409e-b6d4-98b469aa6157</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#plantaardig">
+	<dcterms:identifier>http://www.rnaproject.org/data/902d2f4e-06a4-4149-9ed3-8994e7c4d5ce</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#pierre_de_Vinalmont">
+	<dcterms:identifier>http://www.rnaproject.org/data/04857b14-8816-4401-8f94-a6243556e6c6</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_rosato">
+	<dcterms:identifier>http://www.rnaproject.org/data/11c87d37-71b7-46a5-89ea-eeb93d67590e</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#peperino_grigio">
+	<dcterms:identifier>http://www.rnaproject.org/data/2919478e-e0b0-4bc5-8848-ff66a47f0a02</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#overig">
+	<dcterms:identifier>http://www.rnaproject.org/data/4ffab9e5-8e5a-4957-849d-2c0a66bfbcdc</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#organisch">
+	<dcterms:identifier>http://www.rnaproject.org/data/0e61ecc9-df41-43d7-a11a-c55daf18e118</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ophicalciet">
+	<dcterms:identifier>http://www.rnaproject.org/data/f388b215-6a86-4b20-913b-a19e3f63d02f</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#onbekend">
+	<dcterms:identifier>http://www.rnaproject.org/data/f2cab733-f500-4485-8616-e9f3ff8ddab9</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#oker">
+	<dcterms:identifier>http://www.rnaproject.org/data/0268e03c-26ac-4f7f-b012-b75274850ade</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#noordelijk">
+	<dcterms:identifier>http://www.rnaproject.org/data/1d5d8ee3-256a-4b03-89ec-06caa29c3d94</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#natuursteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/41b47614-e5b7-449c-98f3-d22523930f21</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#monsters">
+	<dcterms:identifier>http://www.rnaproject.org/data/eb529325-68d3-48e9-9a01-7e7f608df985</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metamorfe_natuursteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/45ec5125-ccf1-40d8-aad6-72f3b1a72aba</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#metaal">
+	<dcterms:identifier>http://www.rnaproject.org/data/1a202465-748f-47d5-88c4-6d8caad0165f</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#messing">
+	<dcterms:identifier>http://www.rnaproject.org/data/c2265f46-cc75-404e-aa31-170dc6094dab</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#mergel">
+	<dcterms:identifier>http://www.rnaproject.org/data/2414ad00-dcdf-4491-b311-7162da602b31</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#menselijk">
+	<dcterms:identifier>http://www.rnaproject.org/data/f8d94907-4a2d-4c4e-812f-8b0d55e680f6</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marmer">
+	<dcterms:identifier>http://www.rnaproject.org/data/0f504833-acf0-4334-87a6-b216bdd7d03f</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#marbre_noir_de_Golzinne">
+	<dcterms:identifier>http://www.rnaproject.org/data/a27fb752-8b2a-42be-8e25-c40edcb3e222</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#macroresten_zaden">
+	<dcterms:identifier>http://www.rnaproject.org/data/ed217488-4ef6-4455-8f2d-69861c9c4634</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lydiet_phtaniet">
+	<dcterms:identifier>http://www.rnaproject.org/data/b5393938-696f-4943-855d-46bfc954de07</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#lood">
+	<dcterms:identifier>http://www.rnaproject.org/data/647a361f-ee11-43b0-924b-aae5df5dcbf3</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ligniet_sapropeliet">
+	<dcterms:identifier>http://www.rnaproject.org/data/877dd1b7-65c0-4ef2-a0f4-a3dfd7279692</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leisteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/9c9926e8-86fe-48e7-9831-a76b8466928d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#leer">
+	<dcterms:identifier>http://www.rnaproject.org/data/155cd513-17b7-4512-a686-b87fd6a12758</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kwartsiet">
+	<dcterms:identifier>http://www.rnaproject.org/data/96a2e12a-43bd-4ba2-ab56-962d296890fa</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#koper">
+	<dcterms:identifier>http://www.rnaproject.org/data/e8d5a630-1787-46ce-875d-8718d673fe22</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kleischalie_kleisteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/98536eef-6308-45de-aff7-8d9f71081222</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kiezelgeode">
+	<dcterms:identifier>http://www.rnaproject.org/data/41db1ef0-9bdb-4fef-ae39-179fe59a5e75</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#keramiek">
+	<dcterms:identifier>http://www.rnaproject.org/data/6313e5c8-84c0-4fd5-bf92-8f8a899c9a6f</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#kalksteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/ecf32898-15b3-4ef7-b5b1-b5628a082a84</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jura">
+	<dcterms:identifier>http://www.rnaproject.org/data/3fb22bf3-1855-43c0-91fa-8a9f44cce247</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jaumont">
+	<dcterms:identifier>http://www.rnaproject.org/data/6b1c97bf-d633-4abb-b844-424ec63dc3c7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#jadeit">
+	<dcterms:identifier>http://www.rnaproject.org/data/efad982b-6bda-4b0d-8cee-0ff93aef38a4</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ivoor">
+	<dcterms:identifier>http://www.rnaproject.org/data/9d1a4098-bb73-4fab-841e-47fb363f679d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzeroer">
+	<dcterms:identifier>http://www.rnaproject.org/data/9e10a594-a88c-470e-9f49-3f6b058b8476</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ijzer">
+	<dcterms:identifier>http://www.rnaproject.org/data/5693408b-f0dd-417b-a549-623b82057069</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#houtskool">
+	<dcterms:identifier>http://www.rnaproject.org/data/018f266a-48cb-42d0-9d22-303c6eaee97f</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hout">
+	<dcterms:identifier>http://www.rnaproject.org/data/6c2ff8ec-09c5-49b6-a9e9-3aba09b7e2e8</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#hoorn">
+	<dcterms:identifier>http://www.rnaproject.org/data/6742c78d-a688-477f-a45a-b695189c97a5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helleflint">
+	<dcterms:identifier>http://www.rnaproject.org/data/dd8c2237-7578-43f4-b5c1-620b5ca32d3d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#helgoland">
+	<dcterms:identifier>http://www.rnaproject.org/data/f9a788d4-fe6c-4c07-9c67-092f11cf5d7d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris_rose">
+	<dcterms:identifier>http://www.rnaproject.org/data/44f8e4f0-3bc9-4dc5-ba00-f85faca9271a</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gris">
+	<dcterms:identifier>http://www.rnaproject.org/data/6deb260c-936b-402a-8899-367206f1699d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#griotte">
+	<dcterms:identifier>http://www.rnaproject.org/data/0472bd2b-4f10-4553-9288-aeb9773db6c7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#grauwacke">
+	<dcterms:identifier>http://www.rnaproject.org/data/e935db75-e941-4003-b7c3-4bf56450a5ad</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#graniet">
+	<dcterms:identifier>http://www.rnaproject.org/data/d3e52ace-444a-4a77-9910-33d8a8d1aae4</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#goud">
+	<dcterms:identifier>http://www.rnaproject.org/data/72fe465e-abe8-4a94-b227-491680081357</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#glas">
+	<dcterms:identifier>http://www.rnaproject.org/data/82cf4e70-376c-4ed6-b13a-406baaf1b3ba</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#git">
+	<dcterms:identifier>http://www.rnaproject.org/data/e23d7ffc-ba30-4155-b243-c76c445db7e5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gietijzer">
+	<dcterms:identifier>http://www.rnaproject.org/data/5dd0697c-7a0a-4f55-ab86-94239a95bf78</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#giallo_di_Siena">
+	<dcterms:identifier>http://www.rnaproject.org/data/4185e4dd-25f6-407d-a61a-0d7fcae46f73</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gewei">
+	<dcterms:identifier>http://www.rnaproject.org/data/8d875e18-01a4-42dd-a780-8a8bd866b29c</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gemengd">
+	<dcterms:identifier>http://www.rnaproject.org/data/b00374cd-fc7a-4fa8-b56c-a29c57e7a7fa</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#ganggesteente">
+	<dcterms:identifier>http://www.rnaproject.org/data/e0d595b9-748f-4902-84f9-366307bfc06d</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#gabbro">
+	<dcterms:identifier>http://www.rnaproject.org/data/9eacbb85-782d-47a4-8807-b4705417852e</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dioriet">
+	<dcterms:identifier>http://www.rnaproject.org/data/8868da1d-7f09-4b68-8680-fbbb9f2a44b4</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dierlijk">
+	<dcterms:identifier>http://www.rnaproject.org/data/9e97d34f-55b5-4164-843d-e962c79044a3</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#dieptegesteente">
+	<dcterms:identifier>http://www.rnaproject.org/data/890e1087-3483-49fb-b55b-db23bb98402c</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#diabaas">
+	<dcterms:identifier>http://www.rnaproject.org/data/485a7a9f-bbc8-448c-938a-710c7d8c2855</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#cipollino">
+	<dcterms:identifier>http://www.rnaproject.org/data/6b78c3ff-4cb8-49f5-b79a-5aac4127ef47</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#brons">
+	<dcterms:identifier>http://www.rnaproject.org/data/ef2a95a7-d2c6-41c7-ad7f-e2791178b6bd</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_menselijk">
+	<dcterms:identifier>http://www.rnaproject.org/data/da0a3b66-5c4a-41ae-b680-e4942b2a3602</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot_dierlijk">
+	<dcterms:identifier>http://www.rnaproject.org/data/705698d5-58ff-4d31-96d3-2c5d43e6040b</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bot">
+	<dcterms:identifier>http://www.rnaproject.org/data/0d27772d-60ce-4319-a51d-ef9b649a63bc</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bois_Jourdan">
+	<dcterms:identifier>http://www.rnaproject.org/data/7952e55f-b457-4346-95df-9cbc3ad5d878</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bianco_Carrara">
+	<dcterms:identifier>http://www.rnaproject.org/data/fb02e8bf-c7fb-4380-a30e-f804bde95d68</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bergkristal">
+	<dcterms:identifier>http://www.rnaproject.org/data/ea93c570-1e94-48c6-91b8-178ff3a1c4f5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basaltlava">
+	<dcterms:identifier>http://www.rnaproject.org/data/d9d792df-53f8-4c74-8723-30b15ca710c5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#basalt">
+	<dcterms:identifier>http://www.rnaproject.org/data/63835e9e-781d-48a8-8e6f-242b81cbd8d7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#barnsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/72b29625-5459-43f8-9d44-2edec0ef491e</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#bardiglio">
+	<dcterms:identifier>http://www.rnaproject.org/data/15760869-7c21-4fee-ac01-53b9c9aa0349</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#balmoral">
+	<dcterms:identifier>http://www.rnaproject.org/data/5ed469ad-bdcc-4fd5-a883-4250fe81e341</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#arabescato">
+	<dcterms:identifier>http://www.rnaproject.org/data/bdc78f45-d73b-4077-833f-8bbb60473ca9</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#anstrude">
+	<dcterms:identifier>http://www.rnaproject.org/data/2d0aa565-cf63-446b-aeba-bbe86d13fa83</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#amfiboliet">
+	<dcterms:identifier>http://www.rnaproject.org/data/80754048-3962-4d50-82c7-334c815aca21</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#alta_kwartsiet">
+	<dcterms:identifier>http://www.rnaproject.org/data/757b48e0-0efa-40b5-9d85-9663e86e2077</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#albast">
+	<dcterms:identifier>http://www.rnaproject.org/data/b2ad4eb2-a409-4b1b-a797-8db50aca3098</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weidenhahn">
+	<dcterms:identifier>http://www.rnaproject.org/data/6dd529e8-658f-4d06-9237-0f9a3fb097bf</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Weiberner_tufsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/63a8e98d-cc91-4001-a70d-af4bd0bf9859</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Udelfanger_zandsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/918b1738-d63b-4fc2-8696-fcbec713c295</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Toscaanse_travertin">
+	<dcterms:identifier>http://www.rnaproject.org/data/53cd1351-45d7-442b-9df5-be9c07b7e792</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Tepla_trachiet">
+	<dcterms:identifier>http://www.rnaproject.org/data/6a01af5e-4f51-4194-8bca-9109a15183c3</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Spaanse_albast">
+	<dcterms:identifier>http://www.rnaproject.org/data/73071c30-36a1-42fa-873d-961ef190a20b</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Solnhofener">
+	<dcterms:identifier>http://www.rnaproject.org/data/4ae6f2c1-7dca-49a2-a340-7e6df3dd1f7b</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Savonnieres">
+	<dcterms:identifier>http://www.rnaproject.org/data/ba43a624-88ff-4402-85ba-08593c47af48</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Saint_Maximin">
+	<dcterms:identifier>http://www.rnaproject.org/data/4fed7d77-c637-4417-962c-daa608bd4f28</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romer_tufsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/d3e60b3f-277a-4c73-9679-37e5cdc61a11</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Romaanse_travertin">
+	<dcterms:identifier>http://www.rnaproject.org/data/3d034152-877b-4e00-9491-c9765e1e299c</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Portland">
+	<dcterms:identifier>http://www.rnaproject.org/data/7ad0f68a-e7f5-4cda-8d02-677f4cfc3760</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Oland">
+	<dcterms:identifier>http://www.rnaproject.org/data/c6cb9cbb-4713-4024-972c-c8e257f69d51</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Obernkirchner_zandsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/20dfa864-7f87-42d3-8cd0-06ecb8b5e65e</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Nottingham_albast">
+	<dcterms:identifier>http://www.rnaproject.org/data/46d54830-5e12-425b-87ed-8866acbcd6e5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Niedermendiger_basaltlava">
+	<dcterms:identifier>http://www.rnaproject.org/data/cf2f3cf2-2f04-4b7b-854b-89bd787bc7f0</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Napoleon">
+	<dcterms:identifier>http://www.rnaproject.org/data/eab328b6-1a38-4861-93d2-96c23cc6efc2</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Materials">
+	<dcterms:identifier>http://www.rnaproject.org/data/99059336-7cae-4f7b-8a99-1516ab77375c</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Massangis">
+	<dcterms:identifier>http://www.rnaproject.org/data/39c14567-1235-41df-a85a-cfb89bbcf931</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Magny">
+	<dcterms:identifier>http://www.rnaproject.org/data/3a15aec1-5a2b-492d-bd35-354825ffdd06</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Londorfer_basaltlava">
+	<dcterms:identifier>http://www.rnaproject.org/data/0cb47e87-96e0-4d87-9564-e8f41c18f836</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Krensheimer_muschelkalksteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/8281540f-6a7d-43ec-9b3e-4b7aa5a4c885</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Kirchheimer_muschelkalksteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/b184ab63-4151-43c9-bc9a-87969c760959</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ierse_hardsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/f7333650-1ab4-4f45-9fdd-ec5c1e3b00de</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Gobertange">
+	<dcterms:identifier>http://www.rnaproject.org/data/c92172f0-dc1d-4eef-86a9-b72f999f07e9</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Euville">
+	<dcterms:identifier>http://www.rnaproject.org/data/d981a93d-28fc-4e13-b766-695252f3766e</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ettringer_tufsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/2f707e17-aac3-4da2-8ea1-485c3946245a</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Comblanchien">
+	<dcterms:identifier>http://www.rnaproject.org/data/9e9aa547-235e-4dd3-b82b-b078ddb8be80</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Brauvilliers">
+	<dcterms:identifier>http://www.rnaproject.org/data/71476176-7243-48ec-a75f-b3771dea1056</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Bentheimer_zandsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/df3f11c1-b1d1-4591-a875-eb7b396aafe6</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Belgische_hardsteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/001c1c91-8998-44e3-baa4-b498568a52a5</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Beiers_graniet">
+	<dcterms:identifier>http://www.rnaproject.org/data/4d006027-1701-4a87-959e-fb90b81f17bc</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Baumberger_kalksteen">
+	<dcterms:identifier>http://www.rnaproject.org/data/eceba5d8-f2ff-46e4-96bb-0ff82a1054cb</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Balegemse_steen">
+	<dcterms:identifier>http://www.rnaproject.org/data/2c0539e8-fad9-4b74-b5c1-ccb71795c3b7</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/RCEMaterialen#Ascolaanse_travertin">
+	<dcterms:identifier>http://www.rnaproject.org/data/636d39d5-f60c-4ccc-adf3-b53803290c28</dcterms:identifier>
+</rdf:Description>
+
+</rdf:RDF>

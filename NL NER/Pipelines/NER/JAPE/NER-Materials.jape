@@ -1,0 +1,55 @@
+Phase: OntoMatching
+Input: Lookup Token NotLookup
+Options: control = appelt
+
+Template: rceMaterial = "http://tmp/RCEMaterialen#${n}"
+Template: erfgoedMaterial = "http://tmp/ErfgoedMateriaal#${n}"
+
+Rule: RCEMaterialLookup
+(
+  //{Token.category == N, Lookup.class == Materials}
+    {!NotLookup, Token.category == N, Lookup.class == [rceMaterial n=Materials]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "Global Thesauri Materialen");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: ErfgoedMaterialLookup
+// Matches under Keramiek class , including aardewerk
+(
+    {Token.category == N, Lookup.class == [erfgoedMaterial n=keramiek]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "Global Thesauri Materialen");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Material", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

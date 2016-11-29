@@ -1,0 +1,38 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries: 
+	a) Period Thesaurus (whole structure)
+*/
+
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+
+Template: period = "http://tmp/eh_period#${n}"
+
+Rule: periodLookup
+(
+	{Lookup.class == [period n=Period]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Period Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"TimeAppellation", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n periodLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+

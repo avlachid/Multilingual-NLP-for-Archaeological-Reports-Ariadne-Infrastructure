@@ -1,0 +1,137 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries:  
+	a) MDA Thesaurus (whole structure)
+	b) Small finds glossary
+	c) Components Thesaurus / Machinery class
+	d) Find type glossary
+*/
+
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: obj = "http://tmp/mda_obj#${n}"
+Template: gsf = "http://tmp/eh_gsf#${n}"
+Template: com = "http://tmp/eh_com#${n}"
+Template: gft = "http://tmp/eh_gft#${n}"
+Template: tmc = "http://tmp/eh_tmc#${n}"
+
+Rule: mdaLookup
+(
+	{Lookup.class == [obj n=Object]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "MDA Object Type Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"PhysicalObject", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mdaLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: gsfLookup
+(
+	{Lookup.class == [gsf n=Small_Finds]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Small Finds Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"PhysicalObject", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gsfLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: comLookup
+(
+	{Lookup.class == [com n=Machinery]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Component-Machinery Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"PhysicalObject", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n comLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: tmcLookup
+(
+	{Lookup.class == [tmc n=Maritime_Craft]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Maritime_Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"PhysicalObject", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n tmcLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: gftLookup
+(
+	{Lookup.class == [gft n=Find_Type]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Find Type Glossary");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"PhysicalObject", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n gftLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

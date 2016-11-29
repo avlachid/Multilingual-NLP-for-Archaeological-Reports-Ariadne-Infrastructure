@@ -1,0 +1,46 @@
+/*
+Andreas Vlachidis 2016
+Matches from Nomisma Vocabulary:  
+*/
+
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: prd = "http://tmp/eh_period#${n}"
+
+//bypass frequently used terms
+Rule: firstRule
+
+(
+  {Token.string ==~ "[Pp]eriod"}|
+  {Token.string ==~ "[Pp]eriods"}|
+  {Token.string ==~ "[Uu]ncertain"}
+)
+:match
+-->
+{}
+
+Rule: prdLookup
+(
+	{Lookup.class == [prd n=Period]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "EH Period Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Time_Appellation", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n prdLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

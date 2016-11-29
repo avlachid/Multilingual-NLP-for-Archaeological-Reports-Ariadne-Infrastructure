@@ -1,0 +1,43 @@
+/*
+Andreas Vlachidis 2016
+Matching Combo Entities of same kind
+
+*/
+
+Phase: DateMatching
+Input: Time_Appellation Lookup Token
+Options: control = appelt
+
+
+Rule: ComboDate
+(
+	{Time_Appellation}
+	({Token.string == ","}|
+	 {Token.string == "and"}|
+         {Token.string == "to"}|
+	 {Token.string == "/"}|
+	 {Token.string == "-"}
+	)?
+	{Time_Appellation}
+):match
+--> 
+:match.ComboTimeAppellation = {rule = "ComboDate"}
+
+Rule: ComboDateII
+(
+   ({Lookup.majorType == ordinal}|
+    ({Token.kind == number}{Lookup.majorType == ordinal_suffix})
+   )
+   ({Token.string == ","}|
+	 {Token.string == "and"}|
+         {Token.string == "to"}|
+	 {Token.string == "/"}|
+	 {Token.string == "-"}
+   )?
+   {Time_Appellation}
+
+):match
+--> 
+:match.ComboTimeAppellation = {rule = "ComboDateII"}
+
+

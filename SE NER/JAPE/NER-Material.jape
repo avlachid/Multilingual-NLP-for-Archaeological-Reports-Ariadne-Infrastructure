@@ -1,0 +1,13 @@
+Phase: NER
+Input: Lookup
+Options: control = appelt
+
+Rule: Material
+
+(
+	{Lookup.majorType == Material}
+):match
+-->
+:match.Material = {rule = "Material"}
+
+

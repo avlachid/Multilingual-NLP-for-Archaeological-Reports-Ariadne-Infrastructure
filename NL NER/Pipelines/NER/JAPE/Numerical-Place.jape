@@ -1,0 +1,24 @@
+Phase:   Place
+Input: Token
+Options: control = appelt
+
+Rule:CoordinatesA
+// 216.581/568.889, 216581/568889
+(
+	{Token.string ==~ "[0-9]{3}.?[0-9]{3}/[0-9]{3}.?[0-9]{3}"}
+):match
+-->
+:match.Place = {rule = "Coordinates A"}
+
+Rule:CoordinatesB
+// 216581 / 568889 
+(
+	{Token.category == Num, Token.string ==~ "[0-9]{6}"}
+	{Token.string == "/"}
+	{Token.category == Num, Token.string ==~ "[0-9]{6}"}
+     //{Token.length == 6} is not working , length > or < would work but not ==. I suspect the equal operator is not working on OPEN NLP tokenizer due to being an int. 
+):match
+-->
+:match.Place = {rule = "Coordinates B"}
+
+

@@ -1,0 +1,80 @@
+/*
+Andreas Vlachidis 2016
+
+*/
+
+Phase: DateMatching
+Input: 	Sentence weight100 weight60 weight30
+Options: control = appelt
+
+
+Rule: weightedSentence100
+Priority: 100
+(
+  {Sentence contains weight100}
+)
+:match
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    Annotation matchedAnn = (gate.Annotation)matchedAS.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("weight", "1"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Sentence", features); 
+    outputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n Weighted Sentence");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: weightedSentence60
+Priority: 50
+(
+  {Sentence contains weight60}
+)
+:match
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    Annotation matchedAnn = (gate.Annotation)matchedAS.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("weight", "0.6"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Sentence", features); 
+    outputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n Weighted Sentence");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+Rule: weightedSentence30
+Priority: 25
+(
+  {Sentence contains weight30}
+)
+:match
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    Annotation matchedAnn = (gate.Annotation)matchedAS.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("weight", "0.3"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Sentence", features); 
+    outputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n Weighted Sentence");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

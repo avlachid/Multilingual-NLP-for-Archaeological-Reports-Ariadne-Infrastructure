@@ -1,0 +1,31 @@
+/*
+Andreas Vlachidis 2016
+
+*/
+
+Phase: Dendro
+Input: 	Sentence Lookup Token
+Options: control = appelt
+
+
+Rule: dendroMention
+Priority: 100
+(
+  ({Sentence})[3]
+  {Sentence contains {Lookup.majorType == dendro}}
+  ({Sentence})[3]
+)
+:match
+-->
+:match.DendroMention = {rule = "dendroMention"}
+
+Rule: dendroMentionFlexi
+Priority: 100
+(
+  ({Sentence})[3]
+  ({Sentence contains {Token.string =~ "[Dd]endro"}})
+  ({Sentence})[3]
+)
+:match
+-->
+:match.DendroMention = {rule = "dendroMentionFlexi"}

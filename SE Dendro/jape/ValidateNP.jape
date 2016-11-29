@@ -1,0 +1,26 @@
+/*
+Andreas Vlachidis 2016
+*/
+Phase: Validate
+Input: archElements woodMaterials sample
+Options: control = all
+
+Rule: validate
+(
+	{archElements contains {Token.category !~"N"}}|
+	{woodMaterials contains {Token.category !~"N"}}|
+        {sample contains {Token.category !~"N"}}
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    inputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n validateMaterial");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

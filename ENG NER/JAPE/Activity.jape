@@ -1,0 +1,137 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries: 
+	a) Archaeological Science Thesaurus / Investigative Techniques class
+	b) Archaeological Science Science Thesaurus / Method of Recovery class
+	c) Archaeological Science Science Thesaurus / Modification State class
+	d) Event Type Thesaurus (Whole structure)
+	e) Evidence Thesaurus / Implied Evidence class
+*/
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: arcs = "http://tmp/560#${n}"
+Template: evt = "http://tmp/agl_et#${n}"
+Template: evd = "http://tmp/eh_evd#${n}"
+
+Rule: arcsitLookup
+(
+	{Lookup.class == [arcs n=Investigative_Techniques]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Archaeological Science-Investigative_Techniques Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Activity", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n arcsitLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: arcsmorLookup
+(
+	{Lookup.class == [arcs n=Method_Of_Recovery]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Archaeological Science-Method Of Recovery Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Activity", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n arcsmorLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: arcsmsLookup
+(
+	{Lookup.class == [arcs n=Modification_State]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Archaeological Science-Modification_State Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Activity", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n arcsmsLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: evtLookup
+(
+	{Lookup.class == [evt n=Event_Type]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Event_Type Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Activity", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n evtLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: evdieLookup
+(
+	{Lookup.class == [evd n=Implied_Evidence]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Evidence-Implied Evidence Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Activity", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n evdieLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

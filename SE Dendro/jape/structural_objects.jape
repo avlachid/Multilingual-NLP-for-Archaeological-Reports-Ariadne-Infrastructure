@@ -1,0 +1,78 @@
+/*
+Andreas Vlachidis 2016
+Matches from AAT Thesaurus
+	a) AAT Architectural Elements
+
+*/
+
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: archElements = "http://tmp/AAT/${n}"
+/*
+Rule: firstTable
+
+(
+ (
+  {Token.string == "Table"}|
+  {Token.string == "Fig"}|
+  {Token.string == "Figure"}
+ )
+ {Token.kind == number}
+)
+:match
+-->
+{}
+*/
+Rule: structuralObjectsLookup
+(
+	{Lookup.class == [archElements n=structural_objects]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"archElements", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n structuralObjectsLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: archElementsLookup
+(
+	{Lookup.class == [archElements n=virke]}|
+        {Lookup.class == [archElements n=virken]}|
+	{Lookup.class == [archElements n=virket]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "AAT Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"archElements", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n archElementsLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

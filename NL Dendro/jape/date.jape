@@ -1,0 +1,66 @@
+/*
+Andreas Vlachidis 2016
+Numerical date eg AD 1453
+
+*/
+
+Phase: DateMatching
+Input: Lookup Token
+Options: control = appelt
+
+
+Rule: dateAdbc
+Priority: 85
+(
+  ({Token.category == Num}({Token.string == "en"}|{Token.string == "-"}))?
+  (
+   {Token.category == Num}
+   ({Lookup.majorType == adbc})+ 
+  )
+)
+:match
+-->
+:match.Date = {rule = "dateAdbc"}
+Rule: ordinalCentury
+Priority: 80
+(
+  (
+   {Lookup.majorType == ordinal}|
+   (
+     {Token.category == Num}
+     {Lookup.majorType == ordinal_suffix}
+   )
+  )
+  {Token.string ==~ "[Ee]euw"}
+):match
+  
+-->
+:match.Date = {rule = "ordinalCentury"}
+
+Rule: yearDate
+Priority: 75
+(
+  ({Token.string ==~ "[Jj]aar"}|{Token.string ==~ "[Pp]eriode"})
+  {Token.category == Num}
+  ({Lookup.majorType == adbc})?
+  ({Lookup.majorType == adbc})?
+)
+:match
+-->
+:match.Date = {rule = "yearAdbc"}
+
+Rule: prepDate
+Priority: 50
+
+  {Token.category == Prep}
+(  {Token.category == Num}
+   {Token.string == "±"}
+   {Token.category == Num}
+  ({Lookup.majorType == adbc})?
+  ({Lookup.majorType == adbc})?
+)
+:match
+-->
+:match.Date = {rule = "prepDate"}
+
+

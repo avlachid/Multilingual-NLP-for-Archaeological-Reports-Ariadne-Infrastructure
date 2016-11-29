@@ -1,0 +1,32 @@
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = brill
+
+Template: rceOrganisations = "http://tmp/Personen#${n}"
+Template: rcePersons = "http://tmp/Organisaties#${n}"
+Rule: ArtefactLookup
+(
+  //{Token.category == N, Lookup.class == Actors_Organizations}|
+  //{Token.category == N, Lookup.class == Actors_Persons}
+  {Lookup.class == [rceOrganisations n=Actors_Organizations]}|
+  {Lookup.class == [rcePersons n=Actors_Persons]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");  
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "Source Record Organisaties + Personen"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Actor", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

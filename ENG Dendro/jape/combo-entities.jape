@@ -1,0 +1,86 @@
+/*
+Andreas Vlachidis 2016
+Matching Combo Entities of same kind e.g  "collar"+"purlins" =  "collar purlins"
+
+*/
+
+Phase: OntoMatching
+Input: archElements woodMaterials Token
+Options: control = appelt
+
+
+Rule: comboArchElements
+(
+	({archElements}):left
+	({Token.string == ","}|
+	 {Token.string == "and"}|
+	 {Token.string == "/"}|
+	 {Token.string == "-"}
+	)?
+	({archElements}):right
+)
+--> 
+{
+try {
+
+    AnnotationSet leftAS = bindings.get("left");
+    AnnotationSet rightAS = bindings.get("right");
+    Annotation leftAnn = (gate.Annotation)leftAS.iterator().next();
+    Annotation rightAnn = (gate.Annotation)rightAS.iterator().next();
+    outputAS.removeAll(leftAS);
+    outputAS.removeAll(rightAS);
+    gate.FeatureMap features = Factory.newFeatureMap();
+    gate.FeatureMap leftFeatures = leftAnn.getFeatures();
+    gate.FeatureMap rightFeatures = rightAnn.getFeatures();  
+    features.put("Identifier", leftFeatures.get("Identifier"));
+    features.put("altIdentifier", rightFeatures.get("Identifier"));
+    features.put("class", leftFeatures.get("class"));
+    features.put("altClass", rightFeatures.get("class"));
+    features.put("propertyURI", leftFeatures.get("propertyURI"));
+    features.put("type", "Combo_Entity");
+    outputAS.add(leftAS.firstNode().getOffset(), rightAS.lastNode().getOffset(),"archElements", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mdaLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+
+Rule: comboArchElements
+(
+	({woodMaterials.URI != "http://tmp/AAT/timbers_wood_by_form"}):left
+	({Token.string == ","}|
+	 {Token.string == "and"}|
+	 {Token.string == "/"}|
+	 {Token.string == "-"}
+	)?
+	({woodMaterials.URI != "http://tmp/AAT/timbers_wood_by_form"}):right
+)
+--> 
+{
+try {
+
+    AnnotationSet leftAS = bindings.get("left");
+    AnnotationSet rightAS = bindings.get("right");
+    Annotation leftAnn = (gate.Annotation)leftAS.iterator().next();
+    Annotation rightAnn = (gate.Annotation)rightAS.iterator().next();
+    outputAS.removeAll(leftAS);
+    outputAS.removeAll(rightAS);
+    gate.FeatureMap features = Factory.newFeatureMap();
+    gate.FeatureMap leftFeatures = leftAnn.getFeatures();
+    gate.FeatureMap rightFeatures = rightAnn.getFeatures();  
+    features.put("Identifier", leftFeatures.get("Identifier"));
+    features.put("altIdentifier", rightFeatures.get("Identifier"));
+    features.put("class", leftFeatures.get("class"));
+    features.put("altClass", rightFeatures.get("class"));
+    features.put("propertyURI", leftFeatures.get("propertyURI"));
+    features.put("type", "Combo_Entity");
+    outputAS.add(leftAS.firstNode().getOffset(), rightAS.lastNode().getOffset(),"woodMaterials", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n mdaLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

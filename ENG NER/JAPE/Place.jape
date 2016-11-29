@@ -1,0 +1,61 @@
+/*
+Andreas Vlachidis 2015
+Matches from English Heritage Thesauri and Glossaries:  
+	a) Monuments Type Thesaurus (whole structure)
+	b) Components Thesaurus / Machinery class
+*/
+
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: tmt = "http://tmp/eh_tmt#${n}"
+Template: com = "http://tmp/eh_com#${n}"
+
+Rule: tmtLookup
+(
+	{Lookup.class == [tmt n=Monument]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Monument Types Thesaurus");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n tmtLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+
+Rule: comAnSLookup
+(
+	{Lookup.class == [com n=Areas_And_Spaces]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("origin", "Components-Areas and Spaces Class");  
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"Structure", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n comAnSLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}

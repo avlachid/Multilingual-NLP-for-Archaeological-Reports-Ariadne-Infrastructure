@@ -1,0 +1,32 @@
+Phase: OntoMatching
+Input: Token
+Options: control = appelt
+
+Rule:Temp
+(
+	{Token.string == "IJzertijd"}|
+	{Token.string == "IJZERTIJD"}|
+	{Token.string == "Karolingisch"}|
+	{Token.string == "Merovingische"}|
+	{Token.string == "Mesolithicum"}|
+	{Token.string == "Romeinse tijd"}|
+	{Token.string == "Vroeg-Romeinse tijd"}|
+	{Token.string == "Vroeg-middeleeuwse"}|
+	{Token.string == "Vroege·Bronstijd"}|
+	{Token.string == "laat-Romeinse tijd"}|
+	{Token.string == "laat-mesolithicum"}|
+	{Token.string == "laat-middeleeuws"}|
+	{Token.string == "laat-middeleeuwse"}|
+	{Token.string == "laat-neolithicum"}|
+	{Token.string == "late bronstijd"}|
+	{Token.string == "middeleeuws"}|
+	{Token.string == "middeleeuwse"}|
+	{Token.string == "midden-Romeinse tijd"}|
+	{Token.string == "nieuwe tijd"}|
+	{Token.string == "post-middeleeuws"}|
+	{Token.string == "vroege bronstijd"}
+
+
+):match
+-->
+:match.tempMaterial = {}

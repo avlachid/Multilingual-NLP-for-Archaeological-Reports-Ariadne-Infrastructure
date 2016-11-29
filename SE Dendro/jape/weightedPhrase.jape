@@ -1,0 +1,60 @@
+/*
+Andreas Vlachidis 2016
+
+*/
+
+Phase: DateMatching
+Input: 	Sentence Split archElements woodMaterials Date sample
+Options: control = appelt
+
+
+Rule: weight100
+Priority: 100
+(
+  ({archElements}{woodMaterials}{Date})|
+  ({archElements}{Date}{woodMaterials})|
+  ({woodMaterials}{archElements}{Date})|
+  ({woodMaterials}{Date}{archElements})|
+  ({Date}{archElements}{woodMaterials})|
+  ({Date}{woodMaterials}{archElements})
+)
+:match
+-->
+:match.weight100 = {rule = "weight100"}
+
+Rule: weight60
+Priority: 50
+(
+  ({archElements}{woodMaterials})|
+  ({archElements}{Date})|
+  ({woodMaterials}{archElements})|
+  ({Date}{archElements})|
+  ({Date}{woodMaterials})|
+  ({woodMaterials}{Date})
+)
+:match
+-->
+:match.weight60 = {rule = "weight60"}
+
+
+
+Rule: weight30
+Priority: 25
+(
+  ({archElements})|
+  ({woodMaterials})|
+  ({Date})
+)
+:match
+-->
+:match.weight30 = {rule = "weight30"}
+
+Rule: samplePhrase
+Priority: 50
+(
+  ({sample}{Date})|
+  ({Date}{sample})
+)
+:match
+-->
+:match.samplePhrase = {rule = "samplePhrase"}

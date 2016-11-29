@@ -1,0 +1,49 @@
+/*
+Andreas Vlachidis 2016
+
+*/
+
+Phase: DateMatching
+Input: 	span
+Options: control = appelt
+
+/*
+Rule: weight100
+Priority: 100
+(
+  {span.style == "background: #ffff00"}
+)
+:match
+-->
+:match.woodMaterials = {rule = "weight100"}
+
+Rule: weight60
+Priority: 50
+(
+  {span.style == "background: #ff0000"}
+)
+:match
+-->
+:match.archElements = {rule = "weight60"}
+
+
+
+Rule: weight30
+Priority: 25
+(
+  {span.style == "background: #00ffff"}
+)
+:match
+-->
+:match.Date = {rule = "weight30"}
+*/
+Rule: weight30
+Priority: 25
+(
+  {span.style == "background: #00ff00"}
+)
+:match
+-->
+:match.DatingMethod = {rule = "weight30"}
+
+

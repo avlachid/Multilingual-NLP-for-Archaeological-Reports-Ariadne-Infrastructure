@@ -1,0 +1,30 @@
+/*
+Andreas Vlachidis 2015
+*/
+Phase: Validate
+Input: PhysicalObject Material TimeAppellation Place ArchaeologicalContext Structural Activity
+Options: control = all
+
+Rule: validate
+(
+	{PhysicalObject contains {Token.category !~"NN"}}|
+	{Material contains {Token.category !~"NN"}}|
+	{TimeAppellation contains {Token.category !~"NN"}}|
+	{Place contains {Token.category !~"NN"}}|
+	{ArchaeologicalContext contains {Token.category !~"NN"}}|
+	{Structural contains {Token.category !~"NN"}}|
+	{Activity contains {Token.category !~"NN"}}
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    inputAS.removeAll(matchedAS);
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n validateMaterial");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

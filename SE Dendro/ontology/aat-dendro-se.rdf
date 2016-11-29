@@ -1,0 +1,4123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://tmp/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:psys="http://proton.semanticweb.org/protonsys#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:pext="http://proton.semanticweb.org/protonext#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://tmp/AAT/zebraträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/zapatero">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/weymouthtall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/wengé">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitt_quebrachoträd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitpil">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitgran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitask">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virket">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virken">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virginiatall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vide">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vejksel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/västindiskt_citronträd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vårtbjörk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/valnötssläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tysklönn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tujacypress">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trämaterial">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trägods">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träfragment">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träflis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träfiberplatta">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trädslag">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trä">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/torkat_virke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/toon">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/teak">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tallvirke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tallen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tabebujasläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sykomorfikon">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sydrödek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/svinnötshickory">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/svartbjörk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/surkörsbär">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sumaksläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stubbe">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandtal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/storbladig_hickory">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stolpar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stinkhästkastanj">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/splintved">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spillvirke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spantvirket">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånskiva">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånbarkshickory">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spån">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sötkörsbär">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sockertall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sockerlönn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skogslind">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skogsalm">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skidhickory">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sitkagran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silvertall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverpoppel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverlönn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silvergran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverakacia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sidenträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sibirisk_lärk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sekvojasläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/schinopsis_lorentzii">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/scharlakansek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras_radaiense">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sappan">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sandelträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sågspån">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödtall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödlönn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödgran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödalm">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödal">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/röd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ribb">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_virginiana">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_stellata">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_shumardii">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_lyrata">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_garryana">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quebracho">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/purpurgran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pterocarpus">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/prärieapel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/poppel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pockenholz">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plywood">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plommonträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plommonsläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platanus_hybrida">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platansläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_serotina">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_rigida">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_echinata">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/persikoträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/perobaträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pecanträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/paulowniaträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/päronträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pappersbjörk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/papegojbuske">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/paneler">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/palisander">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/oxandra_lanceolata">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/osb">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientbok">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientalisk_platan">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/olivträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa_biflora">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nothofagus_fusca">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/myrten">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mesquitesläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/merawansläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/massaved">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/masonit">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mangrovesläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/makoré">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mahogny">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/magnolia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/macinellaträd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lövträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lönn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/loblollytall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lind">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/libanonceder">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lärkträdssläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/långbarrig_tall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lager">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kungsmagnolia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kubamahogny">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kryptomeria">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvuxet_timmer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvirken">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kralamahogny">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/korstörne">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/körsbärsbjörk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/konstruktionsvirke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/koa">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/klippalm">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kejsarträd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/katalpa">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaskadlärk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kärrek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kärnved">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaliforniskt_smultronträd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaki">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jeffreytall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jättetuja">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jättehemlock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jarrah">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/järnträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/järnek">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lönn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lärk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_kastanj">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_bok">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_ädelcypress">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakarandasläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakaranda">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/itauba">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/imbuia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/idegran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/humlebok">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/huggspån">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hondurasmahogny">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/himalayagran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hickory_släktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hemlocksläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hästkastanj">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hängcypress">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hagtorn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gultall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gullregnssläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulblommig_hästkastanj">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulbjörk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gransläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gmelinasläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/glanspil">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/generiskt">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/furuvirket">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/furu">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fanérlaminatträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/falsk_akacia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/everestbjörk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekvirke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ebenholtssläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dvärgtall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/drevmaterialet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/diospyros_texana">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_sissoo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_decipularis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_gummifera">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_calophylla">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/citrusmullbär">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cigarrlådeträd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/celtis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cedertujasläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cederträ">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/byggnadsvirke">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brosimum_paraense">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brasiliansk_violpalisander">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/boksläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/blyerts">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/berghemlock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/barrved">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/banksianatall">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/avenbokar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aspidosperma_polyneuron">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/asp">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ask">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/andira_inermis">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amurett">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_rödgran">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_hästkastanj">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ambraträdssläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amarantträdssläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akaciasläktet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/afara">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ädelcypress">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vraken">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vrakdelar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vrak">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vägg">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tvärskeppsförstärkning">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tunnlock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tunna">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tullbommen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tullbommar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästocken">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästockarna">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästockar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träkonstruktioner">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träkonstruktion">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trädymlingar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/toften">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/timmer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tak">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/t_konstrukt">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stockverk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stockens">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stocken">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stäven">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spantrader">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spanten">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spant">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skuta">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skrovet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skrovdelarna">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skeppsdelar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/segeleka">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rundtimmer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rodd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plugg">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plankor">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/planka">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plank">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinnårtull">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pålen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/påle">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/masthål">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/liggande_knä">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/laskar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kölen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/köl">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kåta">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/intimren">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/intimmer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/förspegeln">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/förens">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fören">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för-_och_akterstäv">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningarnas">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningarna">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämning">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygets">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartyget">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygens">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartyg">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/farkoster">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekor">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekan">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/eka">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/drev">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bredden_toft">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bråte">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenstockar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenstock">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenplankor">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bordläggningen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/borden">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bord">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bjälkarna">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/åtelpålen">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/åtelpåle">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterstäven">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterspegeln">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterspegel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterns">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aktern">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akter">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sample">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/materials">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/structural_objects">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/zebraträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/zapatero">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/weymouthtall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/wengé">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitt_quebrachoträd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitpil">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitgran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitask">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virket">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virken">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virginiatall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vide">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vejksel">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/västindiskt_citronträd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vårtbjörk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/valnötssläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tysklönn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tujacypress">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trämaterial">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trägods">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träfragment">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träflis">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träfiberplatta">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trädslag">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trä">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/torkat_virke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/toon">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/timmer">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/teak">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tallvirke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tallen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tabebujasläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sykomorfikon">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sydrödek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/svinnötshickory">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/svartbjörk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/surkörsbär">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sumaksläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stubbe">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandtal">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandal">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/storbladig_hickory">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stolpar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stocken">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stock">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stinkhästkastanj">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/splintved">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spillvirke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spantvirket">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånskiva">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånbarkshickory">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spån">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sötkörsbär">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sockertall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sockerlönn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skogslind">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skogsalm">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skidhickory">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sitkagran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silvertall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverpoppel">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverlönn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silvergran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverakacia">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sidenträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sibirisk_lärk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sekvojasläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/schinopsis_lorentzii">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/scharlakansek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras_radaiense">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sappan">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sandelträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sågspån">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödtall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödlönn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödgran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödalm">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödal">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/röd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ribb">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_virginiana">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_stellata">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_shumardii">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_lyrata">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_garryana">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quebracho">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/purpurgran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pterocarpus">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/prärieapel">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/poppel">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pockenholz">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plywood">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plommonträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plommonsläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platanus_hybrida">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platansläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plankor">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_serotina">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_rigida">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_echinata">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/persikoträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/perobaträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pecanträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/paulowniaträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/päronträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pappersbjörk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/papegojbuske">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/paneler">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/palisander">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/oxandra_lanceolata">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/osb">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientbok">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientalisk_platan">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/olivträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa_biflora">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nothofagus_fusca">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/myrten">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mesquitesläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/merawansläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/massaved">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/masonit">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mangrovesläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/makoré">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mahogny">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/magnolia">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/macinellaträd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lövträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lönn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/loblollytall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lind">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/libanonceder">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lärkträdssläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/långbarrig_tall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lager">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kungsmagnolia">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kubamahogny">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kryptomeria">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvuxet_timmer">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvirken">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kralamahogny">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/korstörne">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/körsbärsbjörk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/konstruktionsvirke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/koa">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/klippalm">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kejsarträd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/katalpa">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaskadlärk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kärrek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kärnved">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaliforniskt_smultronträd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaki">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jeffreytall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jättetuja">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jättehemlock">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jarrah">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/järnträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/järnek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lönn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lärk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_kastanj">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_bok">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_ädelcypress">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakarandasläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakaranda">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/itauba">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/imbuia">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/idegran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/humlebok">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/huggspån">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hondurasmahogny">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/himalayagran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hickory_släktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hemlocksläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hästkastanj">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hängcypress">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hagtorn">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gultall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gullregnssläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulblommig_hästkastanj">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulbjörk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gransläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gmelinasläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/glanspil">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/generiskt">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/furuvirket">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/furu">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fanérlaminatträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/falsk_akacia">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/everestbjörk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekvirke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ebenholtssläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dvärgtall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/drevmaterialet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/diospyros_texana">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_sissoo">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_decipularis">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_gummifera">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_calophylla">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/citrusmullbär">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cigarrlådeträd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/celtis">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cedertujasläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cederträ">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/byggnadsvirke">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brosimum_paraense">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brasiliansk_violpalisander">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/boksläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/blyerts">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/berghemlock">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/barrved">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/banksianatall">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/avenbokar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aspidosperma_polyneuron">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/asp">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ask">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/andira_inermis">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amurett">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_rödgran">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_hästkastanj">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ambraträdssläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amarantträdssläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akaciasläktet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ek">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/afara">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ädelcypress">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/materials"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vraken">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vrakdelar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vrak">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vägg">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tvärskeppsförstärkning">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tunnlock">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tunna">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tullbommen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tullbommar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästocken">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästockarna">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästockar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästock">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träkonstruktioner">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träkonstruktion">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trädymlingar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/toften">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/timmer">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tak">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/t_konstrukt">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stockverk">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stockens">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stocken">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stäven">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spantrader">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spanten">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spant">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skuta">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skrovet">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skrovdelarna">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skeppsdelar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/segeleka">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rundtimmer">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rodd">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plugg">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plankor">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/planka">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plank">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinnårtull">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pålen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/påle">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/masthål">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/liggande_knä">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/laskar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kölen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/köl">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kåta">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/intimren">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/intimmer">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/förspegeln">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/förens">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fören">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för-_och_akterstäv">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningarnas">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningarna">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämning">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygets">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartyget">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygens">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartyg">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/farkoster">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekor">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekan">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/eka">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/drev">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bredden_toft">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bråte">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenstockar">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenstock">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenplankor">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bordläggningen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/borden">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bord">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bjälkarna">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/åtelpålen">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/åtelpåle">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterstäven">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterspegeln">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterspegel">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterns">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aktern">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akter">
+	<rdfs:subClassOf rdf:resource="http://tmp/AAT/structural_objects"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sample">
+	<rdfs:label>borrproven</rdfs:label>
+	<rdfs:label>prov</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa">
+	<rdfs:label>Tupelo</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/oxandra_lanceolata">
+	<rdfs:label>kirimojaväxtart</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virke">
+	<rdfs:label>konstruktionsvirke</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tysklönn">
+	<rdfs:label>sykomorlönn</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_shumardii">
+	<rdfs:label>eksläktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_echinata">
+	<rdfs:label>tallsläktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sandelträ">
+	<rdfs:label>satinträ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/palisander">
+	<rdfs:label>släktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plywood">
+	<rdfs:label>kryssfaner</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pterocarpus">
+	<rdfs:label>padaukträ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandtal">
+	<rdfs:label>strandtall</rdfs:label>
+	<rdfs:label>contortatall</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/falsk_akacia">
+	<rdfs:label>robinia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lärkträdssläktet">
+	<rdfs:label>Läkt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaki">
+	<rdfs:label>kakiträ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakarandasläktet">
+	<rdfs:label>Jacaranda</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cedertujasläktet">
+	<rdfs:label>cedertuja</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/humlebok">
+	<rdfs:label>Humlebokssläktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hemlocksläktet">
+	<rdfs:label>hemlockgransläktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hagtorn">
+	<rdfs:label>Hagtornssläktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/celtis">
+	<rdfs:label>bäralmssläktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/västindiskt_citronträd">
+	<rdfs:label>västindiskt citronträd</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitt_quebrachoträd">
+	<rdfs:label>vitt quebrachoträd</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/torkat_virke">
+	<rdfs:label>torkat virke</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/storbladig_hickory">
+	<rdfs:label>storbladig hickory</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sibirisk_lärk">
+	<rdfs:label>sibirisk lärk</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/schinopsis_lorentzii">
+	<rdfs:label>schinopsis lorentzii</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras_radaiense">
+	<rdfs:label>sassafras radaiense</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_virginiana">
+	<rdfs:label>quercus virginiana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_stellata">
+	<rdfs:label>quercus stellata</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_shumardii">
+	<rdfs:label>quercus shumardii</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_lyrata">
+	<rdfs:label>quercus lyrata</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_garryana">
+	<rdfs:label>quercus garryana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platanus_hybrida">
+	<rdfs:label>platanus hybrida</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_serotina">
+	<rdfs:label>pinus serotina</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_rigida">
+	<rdfs:label>pinus rigida</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_echinata">
+	<rdfs:label>pinus echinata</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/oxandra_lanceolata">
+	<rdfs:label>oxandra lanceolata</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientalisk_platan">
+	<rdfs:label>orientalisk platan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa_biflora">
+	<rdfs:label>nyssa biflora</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nothofagus_fusca">
+	<rdfs:label>nothofagus fusca</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/långbarrig_tall">
+	<rdfs:label>långbarrig tall</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvuxet_timmer">
+	<rdfs:label>krumvuxet timmer</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaliforniskt_smultronträd">
+	<rdfs:label>kaliforniskt smultronträd</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_ädelcypress">
+	<rdfs:label>japansk ädelcypress</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lönn">
+	<rdfs:label>japansk lönn</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lärk">
+	<rdfs:label>japansk lärk</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_kastanj">
+	<rdfs:label>japansk kastanj</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_bok">
+	<rdfs:label>japansk bok</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hickory_släktet">
+	<rdfs:label>hickory släktet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulblommig_hästkastanj">
+	<rdfs:label>gulblommig hästkastanj</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/falsk_akacia">
+	<rdfs:label>falsk akacia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/diospyros_texana">
+	<rdfs:label>diospyros texana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_sissoo">
+	<rdfs:label>dalbergia sissoo</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_decipularis">
+	<rdfs:label>dalbergia decipularis</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_gummifera">
+	<rdfs:label>corymbia gummifera</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_calophylla">
+	<rdfs:label>corymbia calophylla</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brosimum_paraense">
+	<rdfs:label>brosimum paraense</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brasiliansk_violpalisander">
+	<rdfs:label>brasiliansk violpalisander</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aspidosperma_polyneuron">
+	<rdfs:label>aspidosperma polyneuron</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_rödgran">
+	<rdfs:label>amerikansk rödgran</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_hästkastanj">
+	<rdfs:label>amerikansk hästkastanj</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bredden_toft">
+	<rdfs:label>bredden toft</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/liggande_knä">
+	<rdfs:label>liggande knä</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för-_och_akterstäv">
+	<rdfs:label>för-och akterstäv</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/t_konstrukt">
+	<rdfs:label>t konstrukt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sample">
+	<rdfs:label xml:lang="se">stickprov</rdfs:label>
+	<rdfs:label xml:lang="se">sampel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterstäven">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300262678</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterspegeln">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300262672</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterspegel">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300262672</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akterns">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300262678</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aktern">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300262678</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akter">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014634</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sample">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/materials">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/structural_objects">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/zebraträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300374847</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/zapatero">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012010</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/weymouthtall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343775</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/wengé">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300395628</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitt_quebrachoträd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375317</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitpil">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012508</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitgran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012768</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vitask">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011940</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virket">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012827</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virken">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011914</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012801</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300264606</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012827</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011915</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011914</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/virginiatall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343762</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012694</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vide">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012498</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vejksel">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300263389</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/västindiskt_citronträd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375349</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vårtbjörk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011991</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/valnötssläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012476</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tysklönn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012357</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tujacypress">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012551</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trämaterial">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011914</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trägods">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300081361</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träfragment">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012837</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träflis">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012837</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träfiberplatta">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014203</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trädslag">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011914</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trä">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011914</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/torkat_virke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012812</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/toon">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012536</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/timmer">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012785</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012827</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/teak">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012453</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tallvirke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012620</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tallen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012620</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012680</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012620</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tabebujasläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300207888</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sykomorfikon">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375200</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sydrödek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012320</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/svinnötshickory">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012150</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/svartbjörk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011988</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/surkörsbär">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012410</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sumaksläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300256164</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stubbe">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandtal">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012650</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012324</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/strandal">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011932</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/storbladig_hickory">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012143</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stolpar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300001874</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stock">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stinkhästkastanj">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012027</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/splintved">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300379477</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spillvirke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011914</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spantvirket">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012822</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånskiva">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014206</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375095</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spånbarkshickory">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012136</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spån">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012835</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sötkörsbär">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012412</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sockertall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012711</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sockerlönn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012257</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skogslind">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012467</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skogsalm">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012085</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skidhickory">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012153</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sitkagran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012760</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silvertall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012637</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverpoppel">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012386</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverlönn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012252</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silvergran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343724</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/silverakacia">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012213</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sidenträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012451</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sibirisk_lärk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012610</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sekvojasläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343799</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/schinopsis_lorentzii">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375314</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/scharlakansek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012314</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras_radaiense">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012449</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sassafras">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012446</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sappan">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012016</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sandelträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012724</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/sågspån">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012834</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödtall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012667</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödlönn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012249</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödgran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343734</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375456</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödalm">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012082</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rödal">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011929</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/röd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012599</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ribb">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300389657</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_virginiana">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375446</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_stellata">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012309</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_shumardii">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012318</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_lyrata">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012304</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quercus_garryana">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012327</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/quebracho">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012422</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/purpurgran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343726</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pterocarpus">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012335</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/prärieapel">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012347</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/poppel">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012363</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pockenholz">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012193</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plywood">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012849</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plommonträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012418</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plommonsläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012400</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platanus_hybrida">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012351</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/platansläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012349</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_serotina">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012670</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_rigida">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343755</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinus_echinata">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012699</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/persikoträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012417</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/perobaträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343509</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pecanträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012148</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/paulowniaträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300400491</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/päronträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012338</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pappersbjörk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011985</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/papegojbuske">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012178</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/paneler">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014657</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/palisander">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012424</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/oxandra_lanceolata">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300374987</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/osb">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300380238</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientbok">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011962</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/orientalisk_platan">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375191</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/olivträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012333</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa_biflora">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012111</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nyssa">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012114</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/nothofagus_fusca">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011964</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/myrten">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300136896</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mesquitesläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300133246</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/merawansläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012262</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/massaved">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012833</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/masonit">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014205</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mangrovesläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012234</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/makoré">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375323</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/mahogny">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012221</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/magnolia">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012217</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/macinellaträd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300265661</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lövträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011916</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lönn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012261</dcterms:identifier>
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012236</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/loblollytall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012641</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lind">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012456</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/libanonceder">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012528</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lärkträdssläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012604</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/långbarrig_tall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012654</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/lager">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012188</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kungsmagnolia">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012218</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kubamahogny">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012232</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kryptomeria">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300380226</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvuxet_timmer">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300172505</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/krumvirken">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300172505</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kralamahogny">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300133725</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/korstörne">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012211</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/körsbärsbjörk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011995</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/konstruktionsvirke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012828</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/koa">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300133251</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/klippalm">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012080</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kejsarträd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300395509</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/katalpa">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343900</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaskadlärk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012613</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kärrek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012306</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kärnved">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300266458</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaliforniskt_smultronträd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343649</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kaki">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012060</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jeffreytall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012638</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jättetuja">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300380193</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jättehemlock">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012588</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jarrah">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300390924</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/järnträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012172</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/järnek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012156</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lönn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012248</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_lärk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012609</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_kastanj">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012052</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/japansk_ädelcypress">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300380224</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakarandasläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375331</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/jakaranda">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375333</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/itauba">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012180</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/imbuia">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012489</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/idegran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012774</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/humlebok">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012163</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/huggspån">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012837</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hondurasmahogny">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012225</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/himalayagran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012765</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hickory_släktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012134</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hemlocksläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012576</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hästkastanj">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300140153</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hängcypress">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012555</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/hagtorn">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012132</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gultall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012673</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gullregnssläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300251078</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulblommig_hästkastanj">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012029</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gulbjörk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gransläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012726</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012746</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/gmelinasläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011968</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/glanspil">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012504</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/generiskt">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012331</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/furuvirket">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012620</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/furu">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012620</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fanérlaminatträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300387454</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/falsk_akacia">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012197</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/everestbjörk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011983</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekvirke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012264</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ebenholtssläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012065</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dvärgtall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012636</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/drevmaterialet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/diospyros_texana">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375226</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_sissoo">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375343</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/dalbergia_decipularis">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012469</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_gummifera">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300374863</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/corymbia_calophylla">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012102</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/citrusmullbär">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300148823</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cigarrlådeträd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012532</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/celtis">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012123</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cedertujasläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012525</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/cederträ">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012601</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/byggnadsvirke">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012822</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brosimum_paraense">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012443</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/brasiliansk_violpalisander">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300136737</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/boksläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300011966</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/blyerts">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300343645</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/berghemlock">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012585</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/barrved">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012510</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/banksianatall">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012634</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/avenbokar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012158</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/aspidosperma_polyneuron">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375181</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/asp">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300375214</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ask">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300164025</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/andira_inermis">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012336</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amurett">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300179524</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_rödgran">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012753</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amerikansk_hästkastanj">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012025</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ambraträdssläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300072639</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/amarantträdssläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012419</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/akaciasläktet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300048911</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/afara">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300133219</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ädelcypress">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012545</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vraken">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386973</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vrakdelar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386973</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vrak">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386973</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/vägg">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300002469</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tvärskeppsförstärkning">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tunnlock">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300194514</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tunna">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300194514</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tullbommen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300265087</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tullbommar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300265087</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästocken">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästockarna">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästockar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trästock">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träkonstruktioner">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300001479</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/träkonstruktion">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300001479</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/trädymlingar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014634</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/toften">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300024042</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/timmer">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300264606</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/tak">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300002031</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/t_konstrukt">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stockverk">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stockens">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stocken">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012784</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/stäven">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300248152</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spantrader">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spanten">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/spant">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skuta">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300212871</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skrovet">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300213040</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skrovdelarna">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300213040</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/skeppsdelar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300212614</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/segeleka">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300212881</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rundtimmer">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300014669</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/rodd">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plugg">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300045717</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plankor">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012825</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/planka">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012825</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/plank">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012825</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pinnårtull">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/pålen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300001874</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/påle">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300001874</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/masthål">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/liggande_knä">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/laskar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kölen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300263190</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/köl">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300263190</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/kåta">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/intimren">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/intimmer">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/förspegeln">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/förens">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300248152</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fören">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300248152</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för-_och_akterstäv">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300248152</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/för">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300248152</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386973</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningarnas">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386974</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningarna">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386973</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämningar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386973</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygslämning">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300386972</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygets">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300042940</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartyget">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300042940</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartygens">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300042942</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/fartyg">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300042941</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/farkoster">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300042940</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekor">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300212881</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ekan">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300212872</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/eka">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300212881</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/drev">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bredden_toft">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bråte">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012785</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenstockar">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenstock">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bottenplankor">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012825</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bordläggningen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012825</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/borden">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300039548</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bord">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300039548</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/bjälkarna">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300264606</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/åtelpålen">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/åtelpåle">
+	<dcterms:identifier>http://vocab.getty.edu/aat/000000000</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tmp/AAT/ek">
+	<dcterms:identifier>http://vocab.getty.edu/aat/300012264</dcterms:identifier>
+</rdf:Description>
+</rdf:RDF>

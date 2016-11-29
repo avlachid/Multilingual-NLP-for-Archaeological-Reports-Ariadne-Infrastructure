@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/GATE"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jewelcli-0.54.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.5.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-jdk14-1.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/openrdf-sesame-2.7.9-onejar.jar"/>
+	<classpathentry kind="lib" path="lib/owlim-lite-5.4.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

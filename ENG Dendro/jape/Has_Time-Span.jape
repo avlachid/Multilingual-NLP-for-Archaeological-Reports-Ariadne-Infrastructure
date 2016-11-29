@@ -1,0 +1,329 @@
+/*
+Andreas Vlachidis 2016
+Relation spans of the kind 
+Object <has_time-Span> Time_Appellation 
+*/
+
+Phase: RelationSpans
+Input: Sentence Date archElements VG Token NounChunk Lookup
+Options: control = appelt
+
+/*
+
+Rule: Has_TimeSpan
+(
+	({Date})
+	{archElements}
+):match
+--> 
+:match.Has_Time-Span = {rule = "Has_Time-Span"}
+
+Rule: Has_TimeSpan_II
+(
+	{archElements}
+        ({Date})
+):match
+--> 
+:match.Has_Time-Span = {rule = "Has_Time-Span_II"}
+*/
+
+Rule: E12_I
+Priority: 300
+(
+	({Date})
+	{archElements}
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_I"}
+
+//Prehistoric 406 Flint, Neolithic worked flint
+Rule: E12_II
+Priority: 100
+(
+	({Date})
+	({Token.kind != punctuation, !Token.category == VB}|
+	 {Token.kind != punctuation, !Token.category == VBG}|
+	 {Token.kind != punctuation, !Token.category == VBP}|
+	 {Token.kind != punctuation, !Token.category == VBD})
+   	{archElements}
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_II"}
+
+// This rule joins a number of rules that are commeneted below 
+//coins are Roman, finds of Roman period, coin of the Roman period, coin is clearly modern, coins, of Roman Date
+Rule: E12_III
+Priority: 100
+(
+	{archElements}
+	({Token.string == ","})?
+	({VG}|{Token.category == IN})
+	({Token.category == DT}|{Token.category == JJ}|{Token.category == RB}|{Token.category == IN})?
+	({Date})
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_III"}
+
+//coins are Roman, finds of Roman period
+Rule: E12_III
+Priority: 100
+(
+	{archElements}
+	({VG}|{Token.category == IN})
+	({Date})
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_III"}
+
+// Post-medieval 1004 2 coin
+Rule: E12_IV
+Priority: 100
+(
+	({Date})
+	({Token.string == "["}|{Token.string == "("}|{Token.string == "{"})?
+	({Token.kind == number})[1,5]
+	({Token.string == "]"}|{Token.string == ")"}|{Token.string == "}"})?
+	({Token.kind == word})?
+	{archElements}
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_IV"}
+
+// Roman domestic pottery find
+Rule: E12_V
+Priority: 100
+(
+	({Date})
+	({Token.category == JJ}|
+	{Token.category == NN}|
+	{Token.category == NNS}|
+	{Token.category == NNP}|
+	{Token.category == NNPS}|
+	{Token.category == NP}|
+	{Token.category == NPS})[1,3]
+	{archElements}
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_V"}
+
+Rule: E12_VI
+Priority: 100
+(
+	{archElements}
+	{Token.category == IN}
+	({Token.category == DT}|{Token.category == JJ}|{Token.category == RB})
+	({Date})
+	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_VI"}
+
+// coin is clearly modern, 
+Rule: E12_VII
+Priority: 100
+(
+	{archElements}
+	{VG}
+	({Token.category == DT}|{Token.category == IN}|{Token.category == RB})
+	({Date})
+	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_VII"}
+
+// coins, of Roman Date
+Rule: E12_VIII
+Priority: 100
+(
+	{archElements}
+	{Token.string == ","}
+	{Token.category == IN}
+	({Date})
+	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_VIII"}
+
+//post-medieval date were identified on the coin, coins dating from the 18th century
+Rule: E12_IX
+Priority: 100
+(
+	({Date})
+        ({Token})[0,3]
+	({VG})?
+	({Token.category == JJ})?
+	{Token.category == IN}
+	{Token.category == DT}
+	({Token.kind == word})?
+	{archElements}	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_IX"}
+
+// medieval references to a coin
+Rule: E12_X
+Priority: 100
+(
+	({Date})
+        ({Token})[0,4]
+	({Token.category == NN}|{Token.category == NNS})
+	{Token.category == TO}
+	{Token.category == DT}
+	({Token.kind == word})?
+	{archElements}	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_X"}
+
+//coins dating from after the 18th century
+Rule: E12_XI
+Priority: 100
+(
+	{archElements}
+        ({Token})[0,3]
+	({VG}|{Token.category == RB})?
+	({VG}|{Token.category == IN}|{Token.category == TO})?
+	{Token.category == IN}
+	{Token.category == DT}
+	({Date contains {Lookup.majorType == "period_suffix"}}|
+	(({Date})({Token.string == "date"}|{Token.string == "phase"})))
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XI"}
+
+//coin probably relates to the 20th century, animal remains dating back to the Bronze Age
+Rule: E12_XII
+Priority: 100
+(
+	{archElements}
+        ({Token})[0,3]
+	({VG}|{Token.category == RB})?
+	({VG}|{Token.category == JJ}|{Token.category == RB})
+	({Token.category == TO})?
+	({Token.category == IN})?
+	({Token.category == DT})?
+        ({Token})?
+	({Date})
+	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XII"}
+
+// coin was shown to be modern, animal remains at Davyshiel are likely to be post-medieval
+Rule: E12_XIII
+Priority: 100
+(
+	{archElements}
+	({Token})[0,6]
+	{Token.category == TO}
+	({Token.category == VB}|{Token.category == VBN}|{Token.category == VBP}|{Token.category == VBD}|{Token.category == VBG})
+	({Date})	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XIII"}
+
+// artefact fragments associated with post-medieval
+Rule: E12_XIV
+Priority: 100
+(
+	{archElements}
+        ({Token})[0,5]
+	{VG}
+	({Token.category == RB}|{Token.category == IN}|{Token.category == DT})
+	({Token.category == RB})?
+	({Date contains {Lookup.majorType == "period_suffix"}}|
+	(({Date})({Token.string == "date"}|{Token.string == "phase"})))	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XIV"}
+
+// archaeological remains, particularly of prehistoric date
+Rule: E12_XV
+Priority: 100
+(
+	{archElements}
+        ({Token})[0,6]
+	({Token.category == RB})
+	{Token.category == IN}
+	({Date contains {Lookup.majorType == "period_suffix"}}|
+	(({Date})({Token.string == "date"}|{Token.string == "phase"})))	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XV"}
+
+// coin 37 belonging to an early to mid-13th century
+Rule: E12_XVI
+Priority: 100
+(
+	{archElements}
+        ({Token})[0,3]
+	{VG}
+	{Token.category == TO}
+	{Token.category == DT}
+	{Token.category == JJ}
+	{Token.category == TO}
+	({Date})	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XVI"}
+
+// Brick, 30mm thick, Roman
+Rule: E12_XVI
+Priority: 100
+(
+	{archElements}
+	({Token.string == ","})
+	({Token.kind == number})
+	({Token.category == NN}|{Token.category == NNS})?
+	({Token.category == JJ})?
+	({Token.string == ","})
+	({Date})	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XVI"}
+
+// Find were fragments of late medieval/post-medieval
+Rule: E12_XVII
+Priority: 100
+(
+	{archElements}
+        ({Token})[0,5]
+	{VG}
+	{NounChunk}
+	{Token.category == IN}
+	({Date})	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XVII"}
+
+//modern, heavily silted and blocked, coins
+Rule: E63_XVII
+Priority: 100
+(
+	({Date})
+	{Token.string == ","}
+	({Token.category == RB}|{Token.category == VBN}|{Token.category == CC})+
+	{Token.string == ","}
+	{archElements}
+		
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E63_XVII"}
+
+
+// Find were fragments dating to the postmedieval period
+Rule: E12_XVIII
+Priority: 200
+(
+	{archElements}
+        ({Token})[0,12]
+	{Token.root=="date"}
+        ({Token})[0,3]
+	({Lookup.majorType == "period_prefix"})?
+	({Token.category == TO}|{Token.category == IN})
+	{Token.category == DT}
+        ({Token})?
+	({Date})	
+)
+:Mention --> 
+:Mention.Has_Time-Span = {rule="E12_XVIII"}

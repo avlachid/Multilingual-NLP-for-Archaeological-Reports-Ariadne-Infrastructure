@@ -1,0 +1,13 @@
+Phase: StemToRoot
+Input: Token
+Options: control = all
+
+Rule: STR
+({Token}):tok
+-->
+:tok {
+  FeatureMap fm = tokAnnots.iterator().next().getFeatures();
+  if(fm.containsKey("stem")) fm.put("root", fm.get("stem"));
+  else fm.put("root", fm.get("string"));
+}
+

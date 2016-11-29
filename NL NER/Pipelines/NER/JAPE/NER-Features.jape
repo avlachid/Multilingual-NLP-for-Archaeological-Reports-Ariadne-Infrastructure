@@ -1,0 +1,51 @@
+Phase: OntoMatching
+Input: Lookup Token
+Options: control = appelt
+
+Template: rceFeatures = "http://tmp/Artefacttypen#${n}"
+Template: rceLandscapeElement = "http://tmp/Landschapselementen#${n}"
+
+Rule: FeatureLookup
+(
+  {Lookup.class == [rceFeatures n= cruciformfibula]}|
+  {Lookup.class == [rceFeatures n= gracht]}|
+  {Lookup.class == [rceFeatures n= graf_onderdeel]}|
+  {Lookup.class == [rceFeatures n= greppel_sloot]}|
+  {Lookup.class == [rceFeatures n= grijsbakkend_handgevormd_aardewerk]}|
+  {Lookup.class == [rceFeatures n= huisplattegrond]}|
+  {Lookup.class == [rceFeatures n= hutkom_2_4_6_palig]}|
+  {Lookup.class == [rceFeatures n= kuil]}|
+  {Lookup.class == [rceFeatures n= lijksilhouet]}|
+  {Lookup.class == [rceFeatures n= oorring_oorhanger]}|
+  {Lookup.class == [rceFeatures n= paalgat_paalkuil]}|
+  {Lookup.class == [rceFeatures n= paalkrans]}|
+  {Lookup.class == [rceFeatures n= Palenrij]}|
+  {Lookup.class == [rceFeatures n= palissade]}|
+  {Lookup.class == [rceFeatures n= plattegrond_configuratie]}|
+  {Lookup.class == [rceFeatures n= ploeg_onderdeel]}|
+  {Lookup.class == [rceFeatures n= spiegel_onderdeel]}|
+  {Lookup.class == [rceFeatures n= spieker_graanschuur_4_6_8_9_palig]}|
+  {Lookup.class == [rceFeatures n= spits]}|
+  {Lookup.class == [rceFeatures n= waterput_waterreservoir]}|
+  {Lookup.class == [rceFeatures n= weg_on_verhard]}
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    features.put("thesaurus", "complextypen abr+ Mix Complex Types"); 
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"ArchaeologicalContext", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
+

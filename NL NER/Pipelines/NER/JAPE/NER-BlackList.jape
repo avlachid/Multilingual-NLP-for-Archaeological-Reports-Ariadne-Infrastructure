@@ -1,0 +1,53 @@
+Phase: OntoMatching
+Input: Lookup
+Options: control = appelt
+
+Template: rceArtefact = "http://tmp/Artefacttypen#${n}"
+Template: rceMonuments = "http://tmp/ArcheoComplexTypes#${n}"
+Template: rceMaterial = "http://tmp/RCEMaterialen#${n}"
+Template: erfgoedMaterial = "http://tmp/ErfgoedMateriaal#${n}"
+Template: rceLocations = "http://tmp/Locaties#${n}"
+Template: rceFeatures = "http://tmp/Artefacttypen#${n}"
+Template: rcePeriods = "http://tmp/Perioden#${n}"
+
+Rule: NotLookup
+(
+  {Lookup.class == [rceMonuments n=Wal_omwalling]}|
+  {Lookup.class == [rceArtefact n=bak_nap]}|
+  {Lookup.class == [rceArtefact n=gebouw]}|
+  {Lookup.class == [rceArtefact n=plaat_strip]}|
+  {Lookup.class == [rceArtefact n=ophoging_kunstmatig]}|
+  {Lookup.class == [rceArtefact n=gewicht]}|
+  {Lookup.class == [rceArtefact n=boor]}|
+  {Lookup.class == [rceArtefact n=kan]}|
+  {Lookup.class == [rceArtefact n=pollen_stuifmeel]}|
+  //{Lookup.class == [rceLocations n=Nederland]}|
+  {Lookup.class == [rceLocations n=Meteren]}|
+  {Lookup.class == [rceLocations n=Een]}|
+  {Lookup.class == [rceLocations n=Heeten]}|
+  {Lookup.class == [rceMaterial n=monsters]}|
+  {Lookup.class == [rceMaterial n=Oland]}|
+  {Lookup.class == [rceMonuments n=Weg]}|
+  {Lookup.class == [rceMonuments n=Akker_tuin]}|
+  {Lookup.class == [rceMonuments n=Stad]}|
+  {Lookup.class == [rceMonuments n=Percelering_verkaveling]}
+
+
+):match 
+--> 
+{
+try {
+
+    AnnotationSet matchedAS = bindings.get("match");
+    AnnotationSet matchedLookup = matchedAS.get("Lookup");
+    Annotation matchedAnn = (gate.Annotation)matchedLookup.iterator().next();
+    gate.FeatureMap features = Factory.newFeatureMap();
+    features = matchedAnn.getFeatures();  
+    features.put("class", features.get("class"));
+    outputAS.add(matchedAS.firstNode().getOffset(), matchedAS.lastNode().getOffset(),"NotLookup", features); 
+ }
+catch (Exception ex) {
+		Out.println("Exception in RHS \n PlaceLookup");
+		ex.printStackTrace(Out.getPrintWriter());
+  	}
+}
